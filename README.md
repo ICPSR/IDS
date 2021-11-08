@@ -1,2 +1,3 @@
 ICPSR IDS Repository
-updated
+
+Data and code for use with IDS.
