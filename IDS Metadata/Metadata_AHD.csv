@@ -1,0 +1,382 @@
+Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
+,GUTMANN,INDIVIDUAL,AGE_YEARS,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,ATTENDED_SCHOOL,DEFINITION,,GUTMANN,Whether attended school during the census year (yes/no)
+,GUTMANN,INDIVIDUAL,ATTENDED_SCHOOL,No,,GUTMANN,Did not attend school during the census year
+,GUTMANN,INDIVIDUAL,ATTENDED_SCHOOL,Yes,,GUTMANN,Attended school during the census year
+,GUTMANN,INDIVIDUAL,BAPTISM_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,DEFINITION,,GUTMANN,Region of birth
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,East or Central Europe,,GUTMANN,Individual born in a place where German or a Slavic language is spoken
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,Mexico,,GUTMANN,Individual born in Mexico
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,Other Europe,,GUTMANN,"Individual born in Europe, but not in a place where German or a Slavic language is spoken"
+,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,U.S.,,GUTMANN,Individual born in the U.S.
+,ICPSR,INDIVIDUAL,BIRTH_ORDER,DEFINITION,,ICPSR Historical Demography Series,Birth order
+,GUTMANN,INDIVIDUAL,CAN_READ,DEFINITION,,GUTMANN,Whether able to read (age 20+ in 1850-1860; age 10+ in 1870-1910)
+,GUTMANN,INDIVIDUAL,CAN_READ,No,,GUTMANN,Not able to read
+,GUTMANN,INDIVIDUAL,CAN_READ,Yes,,GUTMANN,Able to read
+,GUTMANN,INDIVIDUAL,CAN_VOTE,DEFINITION,,GUTMANN,Whether a male citizen aged 21+ is able to exercise his right to vote
+,GUTMANN,INDIVIDUAL,CAN_VOTE,No,,GUTMANN,Male citizen aged 21+ whose right to vote is denied or abridged on grounds other than rebelling or crime
+,GUTMANN,INDIVIDUAL,CAN_VOTE,Yes,,GUTMANN,Male citizen aged 21+ whose right to vote is not denied or abridged on grounds other than rebelling or crime
+,GUTMANN,INDIVIDUAL,CAN_WRITE,DEFINITION,,GUTMANN,Whether able to write (age 10+; 1870-1910 only)
+,GUTMANN,INDIVIDUAL,CAN_WRITE,No,,GUTMANN,Not able to write
+,GUTMANN,INDIVIDUAL,CAN_WRITE,Yes,,GUTMANN,Able to write
+,KNODEL,CONTEXT,CHILDREN_ADOPTED,ANYNUMBER,,KNODEL,
+,KNODEL,CONTEXT,CHILDREN_ADOPTED,DEFINITION,,KNODEL,Number of adopted children in marital union
+,KNODEL,CONTEXT,CHILDREN_COMPLETENESS,DEFINITION,,KNODEL,Evaluation of completeness of reporting of children.  Numeric values are estimated number
+,KNODEL,CONTEXT,CHILDREN_COMPLETENESS,Incomplete,,KNODEL,Reporting of children is probably incomplete
+,KNODEL,CONTEXT,CHILDREN_COMPLETENESS,Questionable,,KNODEL,Reporting of children is may not be reliable
+,GUTMANN,INDIVIDUAL,CHILDREN_EVER_BORN,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,CHILDREN_EVER_BORN,DEFINITION,,GUTMANN,Number of children ever born to individual (integer) at time of declaration
+,KNODEL,CONTEXT,CHILDREN_EVER_BORN_IN_UNION,ANYNUMBER,,,
+,KNODEL,CONTEXT,CHILDREN_EVER_BORN_IN_UNION,DEFINITION,,KNODEL,Number of children ever born in marital union
+,GUTMANN,INDIVIDUAL,CIVIL_WAR_VETERAN,DEFINITION,,GUTMANN,Whether served in the Union or Confederate army or navy (yes only)
+,GUTMANN,INDIVIDUAL,CIVIL_WAR_VETERAN,Yes,,GUTMANN,Served in the Union or Confederate army or navy
+,CAMPOP,INDIVIDUAL,COMMENT,,,CAMPOP,A comment about a record
+,ICPSR,INDIVIDUAL,COMMENT,,,ICPSR Historical Demography Series,Comment string about this person
+,SWEDLUND,INDIVIDUAL,DEATH_AGE_PART,ANYNUMBER,,,
+,SWEDLUND,INDIVIDUAL,DEATH_AGE_PART,DEFINITION,,ICPSR Historical Demography Series,Age at death part of year (for infants)
+,ICPSR,INDIVIDUAL,DEATH_AGE_YEARS,ANYNUMBER,,,
+,ICPSR,INDIVIDUAL,DEATH_AGE_YEARS,DEFINITION,,ICPSR Historical Demography Series,Age at death in years
+,ICPSR,INDIVIDUAL,DEATH_CAUSE,ANYVALUE,,,
+,ICPSR,INDIVIDUAL,DEATH_CAUSE,DEFINITION,,ICPSR Historical Demography Series,Cause of death
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,ABDOMINAL RUPTURE,,,
+,ICPSR,INDIVIDUAL,DEATH_CAUSE_GROUP,DEFINITION,,ICPSR Historical Demography Series,Cause of death in grouped
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,DISEASE OF AGED,,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,DROPSY,,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,GASTROINTERITIS,,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,"GENERAL, NON-INFECTIOUS",,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,HEMMORRAGE,,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,LOCAL INFLAMMATIONS OR DISEASES OF A SPECIFIC ORGAN,,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,"NERVOUS SYSTEM, GENERAL",,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,OTHER INFECTIOUS DISEASE,,,
+,SWEDLUND,INDIVIDUAL,DEATH_CAUSE_GROUP,"RESPIRATORY, LUNG, TB, PNEUMONIA",,,
+,GUTMANN,INDIVIDUAL,DEATH_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,DISABILITY,Blind,,GUTMANN,Blind
+,GUTMANN,INDIVIDUAL,DISABILITY,Crippled,,GUTMANN,Classified as crippled in the U.S. Census (yes only)
+,GUTMANN,INDIVIDUAL,DISABILITY,Deaf,,GUTMANN,Deaf
+,GUTMANN,INDIVIDUAL,DISABILITY,DEFINITION,,GUTMANN,Physical or mental disability
+,GUTMANN,INDIVIDUAL,DISABILITY,Idiotic,,GUTMANN,Classified as idiotic in the U.S. Census
+,GUTMANN,INDIVIDUAL,DISABILITY,Insane,,GUTMANN,Classified as insane in the U.S. Census
+,RUTMAN,INDIVIDUAL,END_OBSERVATION,Last observed date,,ICPSR Historical Demography Series,Last date observed in a source
+,WELLS,INDIVIDUAL,END_OBSERVATION,Reached adulthood,,ICPSR Historical Demography Series,Child reached adulthood but no date of death available;  Date estimated as 15th birthday
+,RUTMAN,TIMESTAMP,ESTIMATION,After,,,Event estimated to have occurred after this date
+,RUTMAN,TIMESTAMP,ESTIMATION,Before,,,Event estimated to have occurred before this date
+,GUTMANN,CONTEXT,FARM,DEFINITION,,GUTMANN,Whether the family lives on a farm (Yes or No; 1910 only)
+,GUTMANN,CONTEXT,FARM,No,,GUTMANN,Family lives in a (non-farm) house
+,GUTMANN,CONTEXT,FARM,Yes,,GUTMANN,Family lives on a farm
+,GUTMANN,CONTEXT,FARM_SCHEDULE,ANYVALUE,13-5-2021,GUTMANN,Value of identification number of farm schedule in census
+,GUTMANN,CONTEXT,FARM_SCHEDULE,DEFINITION,,GUTMANN,Idenitification number of family in the farm schedule
+,GUTMANN,INDIVIDUAL,FATHER_BIRTH_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,FATHER_BIRTH_LOCATION,DEFINITION,,,Place of birth of Subject's father
+,GUTMANN,INDIVIDUAL,FATHER_FOREIGN_BORN,DEFINITION,,,Subject's father was born outside US (YES/NO)
+,GUTMANN,INDIVIDUAL,FATHER_FOREIGN_BORN,No,,,
+,GUTMANN,INDIVIDUAL,FATHER_FOREIGN_BORN,Yes,,,
+,GUTMANN,INDIVIDUAL,FATHER_NATIVE_LANGUAGE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,FIRST_NAME,ANYVALUE,,,
+,RUTMAN,INDIVIDUAL,FIRST_NAME_ALIAS,DEFINITION,,RUTMAN,Alternate first name associated with individual
+,ICPSR,INDIVIDUAL,FUNERAL_DATE,DEFINITION,,ICPSR Historical Demography Series,Date of burial
+,GUTMANN,INDIVIDUAL,FUNERAL_LOCATION,ANYVALUE,,,
+,ICPSR,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Location of burial
+,ICPSR,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Location of burial
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,1-2,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,2-3,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,3-4,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,DEFINITION,,ICPSR Historical Demography Series,Generation of marriage assigned in Greven's published work.
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,I,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,II,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,III,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,IV,,ICPSR Historical Demography Series,
+,GUTMANN,INDIVIDUAL,GENERATION_IN_US ,0,,GUTMANN,Born US/Generation unknown
+,GUTMANN,INDIVIDUAL,GENERATION_IN_US ,1,,GUTMANN,Foreign born
+,GUTMANN,INDIVIDUAL,GENERATION_IN_US ,2,,GUTMANN,Born US/Parents foreign born
+,GUTMANN,INDIVIDUAL,GENERATION_IN_US ,2+,,GUTMANN,Born US/Generation unknown
+,GUTMANN,INDIVIDUAL,GENERATION_IN_US ,3+,,GUTMANN,Born US/Parents born US
+,GUTMANN,INDIVIDUAL,GENERATION_IN_US ,DEFINITION,,GUTMANN,Generations since family's arrival in US
+,GUTMANN,CONTEXT,HOME_OWNERSHIP,DEFINITION,,GUTMANN,"Whether dwelling is owned free, mortgaged, or rented"
+,GUTMANN,CONTEXT,HOME_OWNERSHIP,Own_free,,GUTMANN,Dwelling is owned outright
+,GUTMANN,CONTEXT,HOME_OWNERSHIP,Own_mortgaged,,GUTMANN,Dwelling is mortgaged
+,GUTMANN,CONTEXT,HOME_OWNERSHIP,Rent,,GUTMANN,Dwelling is rented
+,GUTMANN,CONTEXT,HOUSE_NUMBER,ANYVALUE,,,Value of house number
+,GUTMANN,CONTEXT,HOUSEHOLD_WEALTH,ANYNUMBER,13-5-2021,GUTMANN,Value of reported  wealth in household
+,GUTMANN,CONTEXT,HOUSEHOLD_WEALTH,DEFINITION,,GUTMANN,Total wealth in household
+,GUTMANN,CONTEXT,HOUSEHOLD_WEALTH_IMPUTED,ANYNUMBER,13-5-2021,GUTMANN,Value of imputed household wealth
+,GUTMANN,CONTEXT,HOUSEHOLD_WEALTH_IMPUTED,DEFINITION,13-5-2021,GUTMANN,Total wealth in household imputed
+,KNODEL,INDIVIDUAL,ILLEGITIMATE_UNIONS,DEFINITION,,KNODEL,Number of illegitimate unions
+,GUTMANN,INDIVIDUAL,INDUSTRY,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,INDUSTRY,DEFINITION,,GUTMANN,Industry of employment as reported by the subject
+,GUTMANN,INDIVIDUAL,LAND_VALUE,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,LAND_VALUE,DEFINITION,,GUTMANN,Land value in tax assessments
+,GUTMANN,INDIVIDUAL,LANGUAGE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,LANGUAGE,DEFINITION,,GUTMANN,Language spoken other than English
+,GUTMANN,INDIVIDUAL,LANGUAGE_LAST_NAME,DEFINITION,,GUTMANN,"For non-African-American individuals born in the U.S. and with parents born in the U.S. or unknown parental birthplace, indicates whether the person has a German or Slavic surname or a Mexican surname (imputed by project team)"
+,GUTMANN,INDIVIDUAL,LANGUAGE_LAST_NAME,German or Slavic,,GUTMANN,German or Slavic surname
+,GUTMANN,INDIVIDUAL,LANGUAGE_LAST_NAME,Spanish,,GUTMANN,Spanish surname
+,GUTMANN,INDIVIDUAL,LAST_NAME,ANYVALUE,,,
+,RUTMAN,INDIVIDUAL,LAST_NAME_ALIAS,DEFINITION,,RUTMAN,Alternate last name associated with individual. Often a married woman's maiden name.
+,GUTMANN,CONTEXT,LEVEL,Baptismal Register,,,
+,GUTMANN,CONTEXT,LEVEL,Birth Certificate,,,
+,GUTMANN,CONTEXT,LEVEL,Census Supervisor District,,,
+,GUTMANN,CONTEXT,LEVEL,Church,,,Church
+,ICPSR,CONTEXT,LEVEL,City,,ICPSR Historical Demography Series,
+,GUTMANN,CONTEXT,LEVEL,Death Certificate,,,
+,GUTMANN,CONTEXT,LEVEL,Dwelling sequence number,,,
+,GUTMANN,CONTEXT,LEVEL,Enumeration District,,,
+,GUTMANN,CONTEXT,LEVEL,Family sequence number,,,
+,GUTMANN,CONTEXT,LEVEL,Funeral Register,,,
+,GUTMANN,CONTEXT,LEVEL,Government Agency,,,A government office
+,GUTMANN,CONTEXT,LEVEL,Institution,,,
+,GUTMANN,CONTEXT,LEVEL,Marriage Certificate,,,
+,GUTMANN,CONTEXT,LEVEL,Marriage Register,,,
+,GUTMANN,CONTEXT,LEVEL,Minor civil division,,,
+,GUTMANN,CONTEXT,LEVEL,Post Office,,,
+,ICPSR,CONTEXT,LEVEL,State,,ICPSR Historical Demography Series,
+,RUTMAN,INDIVIDUAL,LITERACY,DEFINITION,,RUTMAN,Whether individual is literate
+,RUTMAN,INDIVIDUAL,LITERACY,Illiterate,,RUTMAN,Individual marked as illiterate on original form
+,RUTMAN,INDIVIDUAL,LITERACY,Literate,,RUTMAN,Individual marked as literate on original form
+,RUTMAN,INDIVIDUAL,LITERACY,Not Stated,,RUTMAN,No indication of literacy on original form
+,GUTMANN,INDIVIDUAL,LIVESTOCK_VALUE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,LIVESTOCK_VALUE,DEFINITION,,GUTMANN,Value of livestock in tax assessments
+,GUTMANN,INDIVIDUAL,MAIDEN_NAME,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,MAIDEN_NAME,DEFINITION,,,Woman's family name before marriage
+,GUTMANN,INDIVIDUAL,MARRIAGE_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,MARRIAGE_LOCATION,DEFINITION,,,Location of marriage
+,GUTMANN,INDIVIDUAL,MARRIAGE_SEQUENCE,1,,,
+,GUTMANN,INDIVIDUAL,MARRIAGE_SEQUENCE,2,,,
+,GUTMANN,INDIVIDUAL,MARRIAGE_SEQUENCE,DEFINITION,,,Order of Subject's marriage
+,GUTMANN,INDIVIDUAL,MARRIED_YEARS,DEFINITION,,GUTMANN,Number of years individual has been married
+,GUTMANN,INDIVIDUAL,MARRIED_YEARS,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,MONTHS_IN_SCHOOL,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,MONTHS_IN_SCHOOL,DEFINITION,,,Number of months attended school
+,GUTMANN,INDIVIDUAL,MONTHS_UNEMPLOYED,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,MONTHS_UNEMPLOYED,DEFINITION,,,Number of months unemployed in past year
+,GUTMANN,INDIVIDUAL,MONTHS_UNEMPLOYED,DEFINITION,,,
+,GUTMANN,INDIVIDUAL,MOTHER_BIRTH_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,MOTHER_BIRTH_LOCATION,DEFINITION,,,Place of birth of Subject's mother
+,GUTMANN,INDIVIDUAL,MOTHER_FOREIGN_BORN,DEFINITION,,,Subject's mother born outside US (Y/N)
+,GUTMANN,INDIVIDUAL,MOTHER_FOREIGN_BORN,No,,,
+,GUTMANN,INDIVIDUAL,MOTHER_FOREIGN_BORN,Yes,,,
+,GUTMANN,INDIVIDUAL,MOTHER_NATIVE_LANGUAGE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,MOTHER_NATIVE_LANGUAGE,DEFINITION,,,Native language spoken by Subject's mother
+,GUTMANN,CONTEXT,NAME,ANYVALUE,,,
+,GUTMANN,CONTEXT,NAME,Baptisms Bethany Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Baptisms Edison Street Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Baptisms First Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Baptisms Holy Ghost Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Baptisms St. Mary's Catholic Church,,,
+,GUTMANN,CONTEXT,NAME,Baptisms Vereinskirche,,,
+,GUTMANN,CONTEXT,NAME,Baptisms Zion Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Bethany Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Births Gillespie County Courthouse,,,
+,GUTMANN,CONTEXT,NAME,Deaths Gillespie County Courthouse,,,
+,GUTMANN,CONTEXT,NAME,DEFINITION,,,Name of this context
+,GUTMANN,CONTEXT,NAME,Edison Street Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,First Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Funerals Bethany Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Funerals Edison Street Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Funerals First Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Funerals Holy Ghost Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Funerals St. Mary's Catholic Church,,,
+,GUTMANN,CONTEXT,NAME,Funerals Vereinskirche,,,
+,GUTMANN,CONTEXT,NAME,Funerals Zion Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Gillespie County Courthouse,,,
+,GUTMANN,CONTEXT,NAME,Holy Ghost Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Marriages Bethany Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Marriages Edison Street Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Marriages First Methodist Church,,,
+,GUTMANN,CONTEXT,NAME,Marriages Gillespie County Courthouse,,,
+,GUTMANN,CONTEXT,NAME,Marriages Holy Ghost Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,Marriages St. Mary's Catholic Church,,,
+,GUTMANN,CONTEXT,NAME,Marriages Vereinskirche,,,
+,GUTMANN,CONTEXT,NAME,Marriages Zion Lutheran Church,,,
+,GUTMANN,CONTEXT,NAME,St. Mary's Catholic Church,,,
+,GUTMANN,CONTEXT,NAME,Vereinskirche,,,
+,GUTMANN,CONTEXT,NAME,Zion Lutheran Church,,,
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,African-American,,GUTMANN,All individuals classified as Black or Mulatto in the Census
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,All others,,GUTMANN,Individual does not fit into another ORIGIN category
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,DEFINITION,,,National origin of subject or subject's parents
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,DEFINITION,,GUTMANN,National origin categories used in the Gutmann project
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,East or Central Europe,,GUTMANN,"Individual was born in East or Central Europe (a place where German or a Slavic language is spoken) or has a parent born in East or Central Europe (other prent may be born elsewhere), or has a German or Slavic surname"
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,Mexico,,GUTMANN,Individual was born in Mexico or has a parent born in Mexico (neither parent born in East or Central Europe; other parent may be born elsewhere) or individual has a Spanish surname
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,Other European,,GUTMANN,"Individual was born elsewhere in Europe or has a parent born elsewhere in Europe (neither parent born in Mexico or in East or Central Europe); surname is neither German, nor Slavic, nor Spanish"
+,GUTMANN,INDIVIDUAL,NATIONAL_ORIGIN,U.S.,,GUTMANN,Individual was born in the U.S. with no evidence of Mexican or East or Central European ancestry
+,GUTMANN,INDIVIDUAL,NATIVE_LANGUAGE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,NATIVE_LANGUAGE,DEFINITION,,GUTMANN,The language that a person spoke in childhood.
+,GUTMANN,INDIVIDUAL,OBSERVATION,Census,,,
+,GUTMANN,INDIVIDUAL,OBSERVATION,DEFINITION,,GUTMANN,Observed on a specific date as in a census
+,SWEDLUND,INDIVIDUAL,OBSERVATION_NOTES,DEFINITION,,ICPSR Historical Demography Series,Quality of observation notes
+,SWEDLUND,INDIVIDUAL,OBSERVATION_NOTES,Full obs,,ICPSR Historical Demography Series,Used if 1. Mother's date of death is known OR 2. Father's date of death is known OR 3. Observation to end of reproduction confirmed from a child surviving to adulthood
+,SWEDLUND,INDIVIDUAL,OBSERVATION_NOTES,"Obs. 1st child listed (prob. not first child), to end of reprod.",,ICPSR Historical Demography Series,Used if some children may be missing before the first observed child and observation is complete to the end of the mother's reproductive period
+,SWEDLUND,INDIVIDUAL,OBSERVATION_NOTES,Obs. to census after last child,,ICPSR Historical Demography Series,Used if the family was located in a census after the birth of the last child and no births are missing
+,SWEDLUND,INDIVIDUAL,OBSERVATION_NOTES,"Obs. to last child listed, but not to census",,ICPSR Historical Demography Series,Used if the family was not located in a census after the last observed birth and some births may be missing
+,SWEDLUND,INDIVIDUAL,OBSERVATION_NOTES,Prob. Full,,ICPSR Historical Demography Series,Used if observation of the mother's reproductive period is probably complete but confirmation is not certain
+,GUTMANN,INDIVIDUAL,OCCUPATION,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,OCCUPATION,DEFINITION,,,Occupation
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,DEFINITION,,GUTMANN,Eight-category occupational status code
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Farm laborer,,GUTMANN,Farm laborer
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Farm tenant or manager,,GUTMANN,Farm tenant or manager
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Farmer,,GUTMANN,Farmer
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,High white collar,,GUTMANN,High white collar
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Low white collar,,GUTMANN,Low white collar
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,No occupation,,GUTMANN,No occupation
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Non-farm laborer,,GUTMANN,Non-farm laborer
+,ICPSR,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Official,,ICPSR Historical Demography Series,"Official of government, church, or other organization"
+,GUTMANN,INDIVIDUAL,OCCUPATIONAL_STATUS_AHD,Skilled work,,GUTMANN,Skilled work
+,SWEDLUND,INDIVIDUAL,ORIGIN_LOCATION,ANYVALUE,,,
+,SWEDLUND,INDIVIDUAL,ORIGIN_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Place of origin (often but not always place of birth)
+,GUTMANN,INDIVIDUAL,PARENT_NATIONAL_ORIGIN,East or Central Europe,,,
+,GUTMANN,INDIVIDUAL,PARENT_NATIONAL_ORIGIN,Mexico,,,
+,GUTMANN,INDIVIDUAL,PARENT_NATIONAL_ORIGIN,Other Europe,,,
+,GUTMANN,INDIVIDUAL,PARENT_NATIONAL_ORIGIN,U.S.,,,
+,GUTMANN,INDIVIDUAL,PARENT_ORIGIN_GUTMANN,DEFINITION,,GUTMANN,Parental birth region for non-African-American individuals born in the U.S. (available 1880-1910)
+,GUTMANN,INDIVIDUAL,PARENT_ORIGIN_GUTMANN,East or Central Europe,,GUTMANN,At least one of an individual's parents were born in a place where German or a Slavic language is spoken (other parent may be born in Mexico or elsewhere in Europe)
+,GUTMANN,INDIVIDUAL,PARENT_ORIGIN_GUTMANN,Mexico,,GUTMANN,"At least one of an individual's parents was born in Mexico (other parent may be born in Europe, but not where a German or Slavic language is spoken)"
+,GUTMANN,INDIVIDUAL,PARENT_ORIGIN_GUTMANN,Other Europe,,GUTMANN,At least one of an individual's parents was born in Europe (neither parent born in Mexico or where a German or Slavic language is spoken)
+,GUTMANN,INDIVIDUAL,PARENT_ORIGIN_GUTMANN,U.S.,,GUTMANN,Both of an individual's parents were born in the U.S.
+,CAMPOP,INDIVIDUAL,PAUPER,DEFINITION,,CAMPOP,Reported as a pauper
+,CAMPOP,INDIVIDUAL,PAUPER,Yes,,,
+,CAMPOP,INDIVIDUAL,PAUPER,1,,,1 is equivalent to Yes
+,GUTMANN,INDIVIDUAL,PERSONAL_ESTATE_VALUE,DEFINITION,,GUTMANN,Value of personal (moveable) property in tax asessments
+,GUTMANN,INDIVIDUAL,PERSONAL_ESTATE_VALUE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,POLL_TAX_ASSESSED,DEFINITION,,GUTMANN,Whether the personal estate was assessed for Poll Tax (yes/no)
+,GUTMANN,INDIVIDUAL,POLL_TAX_ASSESSED,No,,GUTMANN,Person was not assessed for Poll Tax
+,GUTMANN,INDIVIDUAL,POLL_TAX_ASSESSED,Yes,,GUTMANN,Person was assessed for Poll Tax
+,CAMPOP,INDIVIDUAL,POSTHUMOUS_BIRTH,DEFINITION,,CAMPOP,Birth after death of father
+,CAMPOP,CONTEXT,QUALITY_END,DEFINITION,,CAMPOP,Ending date of period of high quality data in this parish
+,CAMPOP,CONTEXT,QUALITY_START,DEFINITION,,CAMPOP,Starting date of period of high quality data in this parish
+,GUTMANN,INDIVIDUAL,RACE,Black,,GUTMANN,Classified as black in the U.S. Census
+,GUTMANN,INDIVIDUAL,RACE,Chinese,,GUTMANN,Classified as Chinese in the U.S. Census
+,GUTMANN,INDIVIDUAL,RACE,DEFINITION,,GUTMANN,Race (U.S. Census categories)
+,GUTMANN,INDIVIDUAL,RACE,Indian,,GUTMANN,Classified as Indian in the U.S. Census
+,GUTMANN,INDIVIDUAL,RACE,Mulatto,,GUTMANN,Classified as mulatto in the U.S. Census
+,GUTMANN,INDIVIDUAL,RACE,White,,GUTMANN,Classified as white in the U.S. Census
+,GUTMANN,INDIVIDUAL,REAL_ESTATE_VALUE,DEFINITION,,GUTMANN,Value of real estate
+,GUTMANN,INDIVIDUAL,REAL_ESTATE_VALUE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,RECORD_LOCATION,DEFINITION,,,"Record location in source document, such as ""volume.page.line"""
+,GUTMANN,INDIVIDUAL,RECORD_LOCATION,ANYVALUE,,,
+,GUTMANN,INDIV_INDIV,RELATION,Adopted child,,GUTMANN,ID_I1 is the adopted child of ID_I2
+,GUTMANN,INDIV_INDIV,RELATION,Adoptive father,,GUTMANN,ID_I1 is the adoptive father of ID_I2
+,GUTMANN,INDIV_INDIV,RELATION,Brother,,GUTMANN,ID_I1 is the brother of ID_I2
+,GUTMANN,INDIV_INDIV,RELATION,Brother-in-law,,GUTMANN,ID_I1 is the brother-in-law of ID_I2
+,CAMPOP,INDIV_CONTEXT,RELATION,Child,,CAMPOP,
+,GUTMANN,INDIV_CONTEXT,RELATION,Child in baptism,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Child without parents,,GUTMANN,
+,ICPSR,CONTEXT_CONTEXT,RELATION,City and State,,ICPSR Historical Demography Series,
+,GUTMANN,INDIV_INDIV,RELATION,Cousin,,GUTMANN,ID_I1 is the cousin of ID_I2
+,GUTMANN,INDIV_INDIV,RELATION,Daughter-in-law,,GUTMANN,ID_I1 is the daughter-in-law of ID_I2
+,GUTMANN,INDIV_CONTEXT,RELATION,Decedent in funeral,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,DEFINITION,,GUTMANN,"Relationship of an individual to the household, derived from relationship to head in the census"
+,GUTMANN,CONTEXT_CONTEXT,RELATION,DEFINITION,,GUTMANN,"Relationship between two contexts, imputed by project team"
+,GUTMANN,INDIV_INDIV,RELATION,DEFINITION,,GUTMANN,"Relationship between ID_I1 and ID_I2, derived from relationship to head (1880-1910) or imputed by project team (1850-1870)"
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in City,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in Enumerator District,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in Post Office,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in Subunit,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Enumerator District in Census Supervisor District,,GUTMANN,
+,GUTMANN,INDIV_CONTEXT,RELATION,Father in baptism,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Father in funeral,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Foundling,,GUTMANN,
+,GUTMANN,INDIV_INDIV,RELATION,Grandchild,,GUTMANN,ID_I1 is the grandchild of ID_I2
+,GUTMANN,INDIV_INDIV,RELATION,Grandfather,,GUTMANN,ID_I1 is the grandfather of ID_I2
+,GUTMANN,INDIV_INDIV,RELATION,Grandmother,,GUTMANN,ID_I1 is the grandmother of ID_I2
+,CAMPOP,INDIV_CONTEXT,RELATION,Husband,,CAMPOP,
+,GUTMANN,INDIV_CONTEXT,RELATION,Husband in funeral,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Husband in marriage,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,In jail,,GUTMANN,
+,GUTMANN,INDIV_CONTEXT,RELATION,Lodger or boarder,,GUTMANN,
+,GUTMANN,INDIV_CONTEXT,RELATION,Mother in baptism,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Mother in funeral,,,
+,CAMPOP,CONTEXT_CONTEXT,RELATION,Parish in county,,CAMPOP,
+,GUTMANN,INDIV_CONTEXT,RELATION,Professional helper,,GUTMANN,
+,SWEDLUND,CONTEXT_CONTEXT,RELATION,Region and Locality,,,Region and Locality vary in detail in this dataset
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Register in Church,,,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Register in Government Agency,,,
+,GUTMANN,INDIV_INDIV,RELATION,Sister-in-law,,GUTMANN,ID_I1 is the sister-in-law of ID_I2
+,GUTMANN,INDIV_CONTEXT,RELATION,Soldier,,GUTMANN,
+,GUTMANN,INDIV_INDIV,RELATION,Son-in-law,,GUTMANN,ID_I1 is the son-in-law of ID_I2
+,CAMPOP,INDIV_CONTEXT,RELATION,Union in Parish,,CAMPOP,
+,KNODEL,CONTEXT_CONTEXT,RELATION,Union in village,,KNODEL,Marital union residing in a village
+,KNODEL,CONTEXT_CONTEXT,RELATION,Village in village group,,KNODEL,Village in a regional cluster of villages
+,CAMPOP,INDIV_CONTEXT,RELATION,Wife,,CAMPOP,
+,GUTMANN,INDIV_CONTEXT,RELATION,Wife in funeral,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Wife in marriage,,,
+,GUTMANN,CONTEXT,RELIGION,Catholic,,,
+,GUTMANN,CONTEXT,RELIGION,Catholic,,,
+,GUTMANN,CONTEXT,RELIGION,DEFINITION,,,"Religion identified with a context, such as a church or baptismal register"
+,GUTMANN,CONTEXT,RELIGION,Lutheran,,,
+,GUTMANN,CONTEXT,RELIGION,Lutheran,,,
+,GUTMANN,CONTEXT,RELIGION,Methodist,,,
+,GUTMANN,CONTEXT,RELIGION,Methodist,,,
+,GUTMANN,CONTEXT,RELIGION,Non-denominational,,,
+,GUTMANN,CONTEXT,RELIGION,Non-denominational,,,
+,GUTMANN,CONTEXT,RELIGION,Secular,,,
+,GUTMANN,CONTEXT,RELIGION,Secular,,,
+,CAMPOP,INDIVIDUAL,RESIDENCE_LOCATION,DEFINITION,,CAMPOP,Place of residence
+,ICPSR,INDIVIDUAL,RESIDENCE_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Place of residence of bride or groom
+,ICPSR,INDIVIDUAL,RESIDENCE_OTHER,DEFINITION,,ICPSR Historical Demography Series,Earlier or later residence of this individual
+,CAMPOP,CONTEXT,SAMPLE_GROUP_1,DEFINITION,,CAMPOP,Period this parish included in CamPop group 1 sample
+,CAMPOP,CONTEXT,SAMPLE_GROUP_2,DEFINITION,,CAMPOP,Period this parish included in CamPop group 2 sample
+,CAMPOP,CONTEXT,SAMPLE_GROUP_3,DEFINITION,,CAMPOP,Period this parish included in CamPop group 3 sample
+,CAMPOP,CONTEXT,SAMPLE_GROUP_4,DEFINITION,,CAMPOP,Period this parish included in CamPop group 4 sample
+,CAMPOP,CONTEXT,SAMPLE_GROUP_1,yes,,,
+,CAMPOP,CONTEXT,SAMPLE_GROUP_2,yes,,,
+,CAMPOP,CONTEXT,SAMPLE_GROUP_3,yes,,,
+,CAMPOP,CONTEXT,SAMPLE_GROUP_4,yes,,,
+,GUTMANN,INDIVIDUAL,SCHOOL_ATTENDANCE_MONTHS,DEFINITION,,GUTMANN,Months attended school during the census year
+,GUTMANN,INDIVIDUAL,SCHOOL_ATTENDANCE_MONTHS,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,SICKNESS,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,SICKNESS,DEFINITION,,GUTMANN,Ailment listed in census for an individual
+,GUTMANN,INDIVIDUAL,SLAVE_VALUE,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,SLAVE_VALUE,DEFINITION,,GUTMANN,Value of slaves
+,GUTMANN,INDIVIDUAL,SPEAKS_ENGLISH,DEFINITION,,GUTMANN,Whether able to speak English (yes/no)
+,GUTMANN,INDIVIDUAL,SPEAKS_ENGLISH,No,,GUTMANN,Unable to speak English
+,GUTMANN,INDIVIDUAL,SPEAKS_ENGLISH,Yes,,GUTMANN,Able to speak English
+,GUTMANN,INDIVIDUAL,STOCK_VALUE,DEFINITION,,,Value of livestock
+,GUTMANN,INDIVIDUAL,STOCK_VALUE,ANYNUMBER,,,
+,GUTMANN,CONTEXT,STREET,ANYVALUE,,,
+,CAMPOP,INDIVIDUAL,SUFFIX_NAME,DEFINITION,,CAMPOP,"Additional name identifier, like ""junior"" or ""senior"""
+,AHD,INDIVIDUAL,SUFFIX_NAME,DEFINITION,,ICPSR Historical Demography Series,"Additional name identifier, like ""junior"" or ""senior"""
+,GUTMANN,INDIVIDUAL,SURNAME_LANGUAGE,DEFINITION,,,Imputed language of Subject's surname
+,GUTMANN,INDIVIDUAL,SURNAME_LANGUAGE,ANYVALUE,,,
+,GUTMANN,INDIVIDUAL,SURVIVING_CHILDREN,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,SURVIVING_CHILDREN,DEFINITION,,GUTMANN,Number of children born to person still alive at time of enumeration (integer; 1900-1910 only)
+,GUTMANN,INDIVIDUAL,TAX_OTHER,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,TAX_OTHER,DEFINITION,,GUTMANN,Other taxable wealth
+,GUTMANN,INDIVIDUAL,TOTAL_WEALTH,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,TOTAL_WEALTH,DEFINITION,,GUTMANN,Total wealth from tax assessments
+,GUTMANN,INDIVIDUAL,UNEMPLOYED,DEFINITION,,GUTMANN,Whether able to speak English (yes/no)
+,GUTMANN,INDIVIDUAL,UNEMPLOYED,No,,GUTMANN,"Not out of work on April 15, 1910"
+,GUTMANN,INDIVIDUAL,UNEMPLOYED,Yes,,GUTMANN,"Out of work on April 15, 1910"
+,GUTMANN,INDIVIDUAL,UNEMPLOYED_MONTHS ,DEFINITION,,GUTMANN,Months unemployed during the census year
+,GUTMANN,INDIVIDUAL,UNEMPLOYED_WEEKS,DEFINITION,,GUTMANN,Number of weeks out of work during the year 1909 (integer)
+,GUTMANN,INDIVIDUAL,UNEMPLOYED_MONTHS ,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,UNEMPLOYED_WEEKS,ANYNUMBER,,,
+,CAMPOP,CONTEXT,UNION,DEFINITION,,CAMPOP,Marital or other type of union
+,ICPSR,CONTEXT,UNION,DEFINITION,,,Marriage or other cohabitation
+,CAMPOP,CONTEXT,UNION,Marriage,,CAMPOP,
+,ICPSR,CONTEXT,UNION,Marriage,,,Marital union
+,GUTMANN,INDIVIDUAL,US_CITIZEN_MALE_21,DEFINITION,,GUTMANN,Whether a male citizen aged 21+ (yes only)
+,GUTMANN,INDIVIDUAL,US_CITIZEN_MALE_21,Yes,,GUTMANN,Male citizen aged 21+
+,GUTMANN,INDIVIDUAL,US_CITIZENSHIP,Alien,,GUTMANN,Individual has not begun the naturalization process
+,GUTMANN,INDIVIDUAL,US_CITIZENSHIP,DEFINITION,,GUTMANN,Whether an immigrant has naturalized or begun the naturalization process (foreign born only; 1900-1910 only)
+,GUTMANN,INDIVIDUAL,US_CITIZENSHIP,Naturalized,,GUTMANN,Individual has naturalized
+,GUTMANN,INDIVIDUAL,US_CITIZENSHIP,Papers filed,,GUTMANN,Individual has filed naturalization papers
+,GUTMANN,INDIVIDUAL,US_IMMIGRATION_YEAR,DEFINITION,,GUTMANN,Year of immigration to the U.S. (foreign-born only)
+,GUTMANN,INDIVIDUAL,US_YEARS_RESIDENT,DEFINITION,,GUTMANN,Number of years individual has lived in the U.S. (foreign-born only)
+,GUTMANN,INDIVIDUAL,US_IMMIGRATION_YEAR,ANYNUMBER,,,
+,GUTMANN,INDIVIDUAL,US_YEARS_RESIDENT,ANYNUMBER,,,
+,GUTMANN,CONTEXT,WARD,DEFINITION,,GUTMANN,Ward of city
+,GUTMANN,INDIVIDUAL,WORK_STATUS,DEFINITION,,,"Whether employer, employee, or self-employed "
+,GUTMANN,INDIVIDUAL,WORK_STATUS,employee (worker),,,
+,GUTMANN,INDIVIDUAL,WORK_STATUS,employer,,,
+,GUTMANN,INDIVIDUAL,WORK_STATUS,own account,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
