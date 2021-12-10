@@ -80,9 +80,9 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIVIDUAL,FUNERAL_LOCATION,ANYVALUE,,,
 ,ICPSR,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Location of burial
 ,ICPSR,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Location of burial
-,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,1-2,,ICPSR Historical Demography Series,
-,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,2-3,,ICPSR Historical Demography Series,
-,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,3-4,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,2-Jan,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,3-Feb,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,4-Mar,,ICPSR Historical Demography Series,
 ,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,DEFINITION,,ICPSR Historical Demography Series,Generation of marriage assigned in Greven's published work.
 ,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,I,,ICPSR Historical Demography Series,
 ,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,II,,ICPSR Historical Demography Series,
@@ -372,11 +372,6 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIVIDUAL,WORK_STATUS,employee (worker),,,
 ,GUTMANN,INDIVIDUAL,WORK_STATUS,employer,,,
 ,GUTMANN,INDIVIDUAL,WORK_STATUS,own account,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Child in birth,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Father in birth,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Mother in birth,,,
