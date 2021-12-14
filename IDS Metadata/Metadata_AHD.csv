@@ -7,11 +7,11 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,ANYVALUE,,,
 ,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,ANYVALUE,,,
 ,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,ANYVALUE,,,
-,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,DEFINITION,,GUTMANN,Region of birth
-,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,East or Central Europe,,GUTMANN,Individual born in a place where German or a Slavic language is spoken
-,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,Mexico,,GUTMANN,Individual born in Mexico
-,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,Other Europe,,GUTMANN,"Individual born in Europe, but not in a place where German or a Slavic language is spoken"
-,GUTMANN,INDIVIDUAL,BIRTH_LOCATION,U.S.,,GUTMANN,Individual born in the U.S.
+,GUTMANN,INDIVIDUAL,BIRTH_REGION,DEFINITION,,GUTMANN,Region of birth
+,GUTMANN,INDIVIDUAL,BIRTH_REGION,East or Central Europe,,GUTMANN,Individual born in a place where German or a Slavic language is spoken
+,GUTMANN,INDIVIDUAL,BIRTH_REGION,Mexico,,GUTMANN,Individual born in Mexico
+,GUTMANN,INDIVIDUAL,BIRTH_REGION,Other Europe,,GUTMANN,"Individual born in Europe, but not in a place where German or a Slavic language is spoken"
+,GUTMANN,INDIVIDUAL,BIRTH_REGION,U.S.,,GUTMANN,Individual born in the U.S.
 ,ICPSR,INDIVIDUAL,BIRTH_ORDER,DEFINITION,,ICPSR Historical Demography Series,Birth order
 ,GUTMANN,INDIVIDUAL,CAN_READ,DEFINITION,,GUTMANN,Whether able to read (age 20+ in 1850-1860; age 10+ in 1870-1910)
 ,GUTMANN,INDIVIDUAL,CAN_READ,No,,GUTMANN,Not able to read
@@ -80,9 +80,9 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIVIDUAL,FUNERAL_LOCATION,ANYVALUE,,,
 ,ICPSR,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Location of burial
 ,ICPSR,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Location of burial
-,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,2-Jan,,ICPSR Historical Demography Series,
-,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,3-Feb,,ICPSR Historical Demography Series,
-,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,4-Mar,,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,"""1-2""",,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,"""2-3""",,ICPSR Historical Demography Series,
+,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,"""3-4""",,ICPSR Historical Demography Series,
 ,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,DEFINITION,,ICPSR Historical Demography Series,Generation of marriage assigned in Greven's published work.
 ,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,I,,ICPSR Historical Demography Series,
 ,GREVEN,INDIVIDUAL,GENERATION_GREVEN ,II,,ICPSR Historical Demography Series,
@@ -303,15 +303,10 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIV_CONTEXT,RELATION,Wife in funeral,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Wife in marriage,,,
 ,GUTMANN,CONTEXT,RELIGION,Catholic,,,
-,GUTMANN,CONTEXT,RELIGION,Catholic,,,
 ,GUTMANN,CONTEXT,RELIGION,DEFINITION,,,"Religion identified with a context, such as a church or baptismal register"
 ,GUTMANN,CONTEXT,RELIGION,Lutheran,,,
-,GUTMANN,CONTEXT,RELIGION,Lutheran,,,
-,GUTMANN,CONTEXT,RELIGION,Methodist,,,
 ,GUTMANN,CONTEXT,RELIGION,Methodist,,,
 ,GUTMANN,CONTEXT,RELIGION,Non-denominational,,,
-,GUTMANN,CONTEXT,RELIGION,Non-denominational,,,
-,GUTMANN,CONTEXT,RELIGION,Secular,,,
 ,GUTMANN,CONTEXT,RELIGION,Secular,,,
 ,CAMPOP,INDIVIDUAL,RESIDENCE_LOCATION,DEFINITION,,CAMPOP,Place of residence
 ,ICPSR,INDIVIDUAL,RESIDENCE_LOCATION,DEFINITION,,ICPSR Historical Demography Series,Place of residence of bride or groom
@@ -375,3 +370,30 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIV_CONTEXT,RELATION,Child in birth,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Father in birth,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Mother in birth,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Resident,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Head of household,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Child (from previous marriage) of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Brother or sister of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Child (from previous marriage) of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Grandchild of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Parent of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Niece or Nephew of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Parent of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Brother or sister of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Son/Daughter-in-law of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Mother/Father-in-law of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Brother/Sister-inlaw of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Niece or nephew of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Grandchild of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Adopted child of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Uncle or aunt of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Cousin of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Grandparent of male head,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Son/Daughter-in-law of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Religious affiliation,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Brother/Sister-in-law of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Mother/Father-in-law of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Child (legitimate) of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Uncle or aunt of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Grandparent of female head or wife,,,
+,GUTMANN,INDIV_CONTEXT,RELATION,Step-child (from previous marriage) of female head or wife,,,
