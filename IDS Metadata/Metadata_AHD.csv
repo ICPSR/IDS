@@ -91,23 +91,31 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,CONTEXT,SOURCE_AS_CONTEXT,Marriage Register,,,Refers to an entire register as a context.  Use Marriage certificate for a page in a register
 ,GUTMANN,CONTEXT,STREET,ANYVALUE,,,
 ,CAMPOP,CONTEXT,UNION,DEFINITION,,CAMPOP,Marital or other type of union
-,ICPSR,CONTEXT,UNION,DEFINITION,,,Marriage or other cohabitation
+,ICPSR,CONTEXT,UNION_TYPE,DEFINITION,,,Type of conjugal union: Marriage or other cohabitation
 ,CAMPOP,CONTEXT,UNION,Marriage,,CAMPOP,
-,ICPSR,CONTEXT,UNION,Marriage,,,Marital union
+,ICPSR,CONTEXT,UNION_TYPE,Marriage,,,Marital union
+,ICPSR,CONTEXT,LEVEL,Union,,,Marriage or other conjugal union
 ,GUTMANN,CONTEXT,WARD,DEFINITION,,GUTMANN,Ward of city
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Certificate,,,
 ,GUTMANN,CONTEXT_CONTEXT,RELATION,Certificate,,,
 ,ICPSR,CONTEXT_CONTEXT,RELATION,City and State,,ICPSR Historical Demography Series,
 ,GUTMANN,CONTEXT_CONTEXT,RELATION,DEFINITION,,GUTMANN,"Relationship between two contexts, imputed by project team"
-,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in City,,GUTMANN,
-,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in Enumerator District,,GUTMANN,
-,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in Post Office,,GUTMANN,
-,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling in Subunit,,GUTMANN,
-,GUTMANN,CONTEXT_CONTEXT,RELATION,Enumerator District in Census Supervisor District,,GUTMANN,
-,CAMPOP,CONTEXT_CONTEXT,RELATION,Parish in county,,CAMPOP,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling and City,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling and Enumerator District,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling and Post Office,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Dwelling and Subunit,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Enumerator District and Census Supervisor District,,GUTMANN,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Father of bride,,,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Father of groom,,,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Mother of bride,,,
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Mother of groom,,,
+,CAMPOP,CONTEXT_CONTEXT,RELATION,Parish and county,,CAMPOP,
 ,SWEDLUND,CONTEXT_CONTEXT,RELATION,Region and Locality,,,Region and Locality vary in detail in this dataset
 ,GUTMANN,CONTEXT_CONTEXT,RELATION,Register,,,
-,KNODEL,CONTEXT_CONTEXT,RELATION,Union in village,,KNODEL,Marital union residing in a village
-,KNODEL,CONTEXT_CONTEXT,RELATION,Village in village group,,KNODEL,Village in a regional cluster of villages
+,GUTMANN,CONTEXT_CONTEXT,RELATION,Register,,,
+,KNODEL,CONTEXT_CONTEXT,RELATION,Union and village,,KNODEL,Marital union residing in a village
+,KNODEL,CONTEXT_CONTEXT,RELATION,Village and village group,,KNODEL,Village in a regional cluster of villages
+,GUTMANN,CONTEXT_CONTEXT,SOURCE_AS_CONTEXT,DEFINITION,,,"A document, such as a birth certificate or a page in a register, is being used as a context"
 ,GUTMANN,INDIV_CONTEXT,RELATION,Adopted child of male head,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Bride,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Brother or sister of female head or wife,,,
@@ -125,8 +133,6 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIV_CONTEXT,RELATION,Decedent,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,DEFINITION,,GUTMANN,"Relationship of an individual to the household, derived from relationship to head in the census"
 ,GUTMANN,INDIV_CONTEXT,RELATION,Father,,,
-,GUTMANN,INDIV_CONTEXT,RELATION,Father of bride,,,
-,GUTMANN,INDIV_CONTEXT,RELATION,Father of groom,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Foundling,,GUTMANN,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Grandchild of female head or wife,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Grandchild of male head,,,
@@ -139,8 +145,6 @@ Id,Id_D,Type_T,Type,Value,New,Id_D_Explanation,Explanation
 ,GUTMANN,INDIV_CONTEXT,RELATION,In jail,,GUTMANN,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Lodger or boarder,,GUTMANN,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Mother,,,
-,GUTMANN,INDIV_CONTEXT,RELATION,Mother of bride,,,
-,GUTMANN,INDIV_CONTEXT,RELATION,Mother of groom,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Mother/Father-in-law of female head or wife,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Mother/Father-in-law of male head,,,
 ,GUTMANN,INDIV_CONTEXT,RELATION,Niece or nephew of female head or wife,,,
