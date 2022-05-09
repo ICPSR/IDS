@@ -1,17 +1,17 @@
-"Approval","Id","Id_D","Type_T","Type","Value","New","Extract","Id_D_Explanation","Explanation"
-"OK",2,"COR","METADATA","VERSION_RELEASE","COR_IDS_RELEASE_2020.1","4.03",,"COR","This is the first version of the new release (2020) of COR-Antwerp database"
-"X",37,"COR","INDIVIDUAL","DEATH_REPORTED_DATE","DEFINITION","X",,"COR","Date when death was reported, coinciding with producion of certificate."
-"X",38,"COR","INDIVIDUAL","DEATH_REPORTED_LOCATION","DEFINITION","X",,"COR","Location where death was reported, coinciding with producion of certificate."
-"X",39,"COR","INDIVIDUAL","BIRTH_REPORTED_DATE","DEFINITION","X",,"COR","Date when birth was reported, coinciding with producion of certificate."
-"X",40,"COR","INDIVIDUAL","BIRTH_REPORTED_LOCATION","DEFINITION","X",,"COR","Location where birth was reported, coinciding with producion of certificate."
-"OK",52,"COR","CONTEXT","LEVEL","COUNTRY","4.03",,"COR",
-"OK",53,"COR","CONTEXT","LEVEL","CONTINENT","4.03",,"COR",
-"OK",54,"COR","CONTEXT","LEVEL","ARRONDISSMENT","4.03",,"COR",
-"X",55,"COR","CONTEXT","WIJK_HOUSE_NUMBER","DEFINITION","X",,"COR","Number of house, within the wijk (quarter)"
-"OK",73,"COR","CONTEXT_CONTEXT","RELATION","MUNICIPALITY AND ARRONDISSMENT","4.03",,"COR",
-"OK",74,"COR","CONTEXT_CONTEXT","RELATION","COUNTRY AND CONTINENT","4.03",,"COR",
-"OK",75,"COR","CONTEXT_CONTEXT","RELATION","LOCALITY AND CONTINENT","4.03",,"COR",
-"OK",76,"COR","CONTEXT_CONTEXT","RELATION","LOCALITY AND COUNTRY","4.03",,"COR",
-"OK",77,"COR","CONTEXT_CONTEXT","RELATION","PROVINCE AND COUNTRY","4.03",,"COR",
-"OK",78,"COR","CONTEXT_CONTEXT","RELATION","ARRONDISSMENT AND PROVINCE","4.03",,"COR",
-"OK",88,"COR","TIMESTAMP","ESTIMATION","INCOMPLETE","4.03",,"COR","Period of time does not have complete start and/or end date"
+Approval,Id,Id_D,Type_T,Type,Value,New,Extract,Id_D_Explanation,Explanation,Instructions
+OK,2,COR,METADATA,VERSION_RELEASE,COR_IDS_RELEASE_2020.1,4.03,,COR,This is the first version of the new release (2020) of COR-Antwerp database,
+X,37,COR,INDIVIDUAL,DEATH_REPORTED_DATE,DEFINITION,X,,COR,"Date when death was reported, coinciding with producion of certificate.",
+X,38,COR,INDIVIDUAL,DEATH_REPORTED_LOCATION,DEFINITION,X,,COR,"Location where death was reported, coinciding with producion of certificate.",
+X,39,COR,INDIVIDUAL,BIRTH_REPORTED_DATE,DEFINITION,X,,COR,"Date when birth was reported, coinciding with producion of certificate.",
+X,40,COR,INDIVIDUAL,BIRTH_REPORTED_LOCATION,DEFINITION,X,,COR,"Location where birth was reported, coinciding with producion of certificate.",
+OK,52,COR,CONTEXT,LEVEL,COUNTRY,4.03,,COR,,
+OK,53,COR,CONTEXT,LEVEL,CONTINENT,4.03,,COR,,
+OK,54,COR,CONTEXT,LEVEL,ARRONDISSMENT,4.03,,COR,,
+X,55,COR,CONTEXT,WIJK_HOUSE_NUMBER,DEFINITION,X,,COR,"Number of house, within the wijk (quarter)",
+OK,73,COR,CONTEXT_CONTEXT,RELATION,MUNICIPALITY AND ARRONDISSMENT,4.03,,COR,,
+OK,74,COR,CONTEXT_CONTEXT,RELATION,COUNTRY AND CONTINENT,4.03,,COR,,
+OK,75,COR,CONTEXT_CONTEXT,RELATION,LOCALITY AND CONTINENT,4.03,,COR,,
+OK,76,COR,CONTEXT_CONTEXT,RELATION,LOCALITY AND COUNTRY,4.03,,COR,,
+OK,77,COR,CONTEXT_CONTEXT,RELATION,PROVINCE AND COUNTRY,4.03,,COR,,
+OK,78,COR,CONTEXT_CONTEXT,RELATION,ARRONDISSMENT AND PROVINCE,4.03,,COR,,
+OK,88,COR,TIMESTAMP,ESTIMATION,INCOMPLETE,4.03,,COR,Period of time does not have complete start and/or end date,

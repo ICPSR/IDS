@@ -1,7 +1,7 @@
-"APPROVAL","Id","Id_D","Type_T","Type","Value","New","Extract","Id_D_Explanation","Explanation"
-"OK HSN extension",70007.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Husband RP","4.03",,"HSN","The individual is husband of the HSN Research Person"
-"OK HSN extension",70008.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Wife RP","4.03",,"HSN","The individual is wife of the HSN Research Person"
-"OK HSN extension",70009.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Child RP","4.03",,"HSN","The individual is child of the HSN Research Person"
-"OK HSN extension",70010.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Stepchild RP","4.03",,"HSN","The individual is stepchild of the HSN Research Person"
-"OK HSN extension",70011.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Father-in-law RP","4.03",,"HSN","The individual is father-in-law of the HSN Research Person"
-"OK HSN extension",70012.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Mother-in-law RP","4.03",,"HSN","The individual is mother-in-law of the HSN Research Person"
+APPROVAL,Id,Id_D,Type_T,Type,Value,New,Extract,Id_D_Explanation,Explanation,Instructions
+OK HSN extension,70007,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Husband RP,4.03,,HSN,The individual is husband of the HSN Research Person,
+OK HSN extension,70008,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Wife RP,4.03,,HSN,The individual is wife of the HSN Research Person,
+OK HSN extension,70009,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Child RP,4.03,,HSN,The individual is child of the HSN Research Person,
+OK HSN extension,70010,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Stepchild RP,4.03,,HSN,The individual is stepchild of the HSN Research Person,
+OK HSN extension,70011,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Father-in-law RP,4.03,,HSN,The individual is father-in-law of the HSN Research Person,
+OK HSN extension,70012,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Mother-in-law RP,4.03,,HSN,The individual is mother-in-law of the HSN Research Person,

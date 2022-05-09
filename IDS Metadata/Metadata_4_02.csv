@@ -1,310 +1,308 @@
-"Id","Id_D","Type_T","Type","Value","New","Extract","Id_D_Explanation","Explanation"
-10022.00,"HSN","INDIVIDUAL","MARRIAGE_PERMISSION","Not necessary","3.0",,"HSN","Not necessary because bride or groom is 23 years old or older"
-10023.00,"HSN","INDIVIDUAL","MARRIAGE_PERMISSION","Oral permission","3.0",,"HSN","Oral permission at moment of wedding (usual case)"
-10024.00,"HSN","INDIVIDUAL","MARRIAGE_PERMISSION","Written permission","3.0",,"HSN","Written permission at moment of wedding"
-10025.00,"HSN","INDIVIDUAL","MARRIAGE_PERMISSION","Notarial act","3.0",,"HSN","Legal permission by way of notary (usually in case of parental opposition against marriage)"
-10026.00,"HSN","INDIVIDUAL","MARRIAGE_PERMISSION","Other way","3.0",,"HSN","Other way of giving permission"
-10018.00,"HSN","INDIVIDUAL","MARRIAGE_PROCLAMATION_DATE","DEFINITION","3.0",,"HSN","Date of the marriage proclamation (at least twice at municipality of living (till six months before marriage) and muncipality of marriage"
-10019.00,"HSN","INDIVIDUAL","MARRIAGE_PROCLAMATION_LOCATION","DEFINITION","3.0",,"HSN","Location of the marriage proclamation (at least twice at municipality of living (till six months before marriage) and muncipality of marriage"
-30237.00,"HSN","INDIV_CONTEXT","RELATION","Former spouse","3.0",,"HSN","Only to be used in context of a marriage contract or certificate"
-20152.00,"STANDARD","INDIV_INDIV","RELATION","Legitimized child","3.0",,"HSN","Child recognized (usually by way of a marriage)"
-10137.00,"HSN","INDIVIDUAL","RECOGNITION_DATE","DEFINITION","3.0",,"HSN","Date of recogniton as a legitimate child"
-10138.00,"HSN","INDIVIDUAL","RECOGNITION_LOCATION","DEFINITION","3.0",,"HSN","Location of recogniton as a legitimate child"
-10034.00,"HSN","INDIVIDUAL","ALIVE","DEFINITION","3.0",,"HSN","In case it is relevant to know if a certain person is alive or not at a certain point of time"
-10035.00,"HSN","INDIVIDUAL","ALIVE","Yes","3.0",,"HSN","Yes person is alive at the moment of the timestamp"
-10036.00,"HSN","INDIVIDUAL","ALIVE","No
-
-o","3.0",,"HSN","No person has died before the moment of the timestamp"
-40385.00,"HSN","CONTEXT","NAME","Extract Death Certificate","3.0",,"HSN","If someone died in another municipality than the legal one of living an extract was made up in the location were one was legally registrated."
-40854.00,"HSN","CONTEXT_CONTEXT","RELATION","Extract Death Certificate and Municipality","3.0",,"HSN","Source oriented contextual link"
-40380.00,"STANDARD","CONTEXT","NAME","DEFINITION","3.0 change",,"STANDARD","Name of the level (=value); standard values are introduced  for name in case of source as level."
-30238.00,"HSN","INDIV_CONTEXT","RELATION","Father as informer","3.0",,"HSN","In birth and death certificates the father of the birth or of a relatively young deceased child usually acted as informer as well."
-70018.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Oversampling DUM","3.0",,"HSN","The Research Person is part of the DUM  oversampling city of Utrecht"
-70019.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Priority subsample 1863-1882","3.0",,"HSN","The Research Person is part of the priority subsampling 1863-1882 (part of the basic sample 1812-18820, temporary value"
-20153.00,"STANDARD","INDIV_INDIV","RELATION","Child-in-law","3.0",,"STANDARD",
-20154.00,"STANDARD","INDIV_INDIV","RELATION","Mother-in-law","3.0",,"STANDARD",
-20155.00,"STANDARD","INDIV_INDIV","RELATION","Father-in-law","3.0",,"STANDARD",
-11059.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Divorced or widowed","4.2 change",,"STANDARD","Sometimes it is not clear if the lacking of a spouse is caused by a divorce or widowing"
-50422.00,"STANDARD","TIMESTAMP","ESTIMATION","Interpolation","3.0",,"STANDARD","The period is a subperiod based on interpolation in equal parts within a broader period; the number of subperiods is equal to teh number of different observations"
-20181.00,"STANDARD","INDIV_INDIV","RELATION","Master","3.0",,"STANDARD",
-30218.00,"STANDARD","INDIV_CONTEXT","RELATION","Boarder","3.0",,"STANDARD",
-40800.00,"STANDARD","CONTEXT_CONTEXT","RELATION","DEFINITION","3.01",,"STANDARD","Only one variable in this table: the relationship from the first context individual to the second one (the relationship is not necessarily hierarchical)"
-10011.00,"STANDARD","INDIVIDUAL","STILLBIRTH_DATE","DEFINITION","4.0",,"STANDARD","Date of the event of a stillbirth; the value and further definition will be handled by the time stamp"
-10012.00,"STANDARD","INDIVIDUAL","STILLBIRTH_LOCATION","DEFINITION","4.0",,"STANDARD","Location of the event of the stillbirth. It is preferable to use a reference key to the context table and to enter the lowest level of the context"
-40801.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Province and State","3.0",,"STANDARD",
-40802.00,"STANDARD","CONTEXT_CONTEXT","RELATION","County and State","3.0",,"STANDARD",
-40804.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Municipality and Province","3.0",,"STANDARD",
-40811.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Locality and Municipality","3.0",,"STANDARD",
-40812.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Quarter and Municipality","3.0",,"STANDARD",
-40814.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Address and Municipality","3.0",,"STANDARD",
-40821.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Quarter and Locality","3.0",,"STANDARD",
-40831.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Address and Locality","3.0",,"STANDARD",
-40805.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Municipality and County","3.0",,"STANDARD",
-40350.00,"STANDARD","CONTEXT","LEVEL","DEFINITION","1.0",,"STANDARD","Definiton of the hierarchical level of the context"
-40368.00,"STANDARD","CONTEXT","LEVEL","Address","1.0",,"STANDARD",
-40832.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Address and Quarter","3.0",,"STANDARD",
-40803.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Region and State","3.0",,"STANDARD",
-40806.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Municipality and Region","3.0",,"STANDARD",
-40367.00,"STANDARD","CONTEXT","LEVEL","Neighborhood","1.0",,"STANDARD",
-40813.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Neighborhood and Municipality","3.0",,"STANDARD",
-40822.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Neighborhood and Locality","3.0",,"STANDARD",
-40833.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Address and Neighborhood","3.0",,"STANDARD",
-40369.00,"STANDARD","CONTEXT","LEVEL","Source","3.0",,"STANDARD","A source is used as contextual level"
-40387.00,"STANDARD","CONTEXT","NAME","Baptismal Register","3.0",,"STANDARD","Church records"
-40382.00,"STANDARD","CONTEXT","NAME","Birth Certificate","3.0",,"STANDARD",
-40383.00,"STANDARD","CONTEXT","NAME","Marriage Certificate","3.0",,"STANDARD",
-40384.00,"STANDARD","CONTEXT","NAME","Death Certificate","3.0",,"STANDARD",
-40386.00,"STANDARD","CONTEXT","NAME","Population Register","3.0",,"STANDARD",
-40388.00,"STANDARD","CONTEXT","NAME","Marriage Register","3.0",,"STANDARD","Church records"
-40389.00,"STANDARD","CONTEXT","NAME","Funeral Register","3.0",,"STANDARD","Church records"
-40520.00,"STANDARD","CONTEXT","PAGE","DEFINITION","3.0",,"STANDARD","Page number of the source"
-40521.00,"STANDARD","CONTEXT","VOLUME","DEFINITION","3.0",,"STANDARD","Volume number of the source"
-40522.00,"STANDARD","CONTEXT","SEQUENCE_NUMBER","DEFINITION","3.0",,"STANDARD","Sequence number of the source (like a number of a certificate)"
-40523.00,"STANDARD","CONTEXT","PERIOD","DEFINITION","3.0",,"STANDARD","Period of the source (part of the reference system)"
-40851.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Birth Certificate and Municipality","3.0",,"STANDARD","Source oriented contextual link"
-40852.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Marriage Certificate and Municipality","3.0",,"STANDARD","Source oriented contextual link"
-40853.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Death Certificate and Municipality","3.0",,"STANDARD","Source oriented contextual link"
-40855.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Baptismal Register and Locality","3.0",,"STANDARD","Source oriented contextual link"
-40856.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Marriage Register and Locality","3.0",,"STANDARD","Source oriented contextual link"
-40857.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Funeral Register and Locality","3.0",,"STANDARD","Source oriented contextual link"
-40861.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Population Register and Municipality","3.0",,"STANDARD","Source oriented contextual link"
-40862.00,"STANDARD","CONTEXT_CONTEXT","RELATION","Population Register and Locality","3.0",,"STANDARD","Source oriented contextual link"
-30233.00,"STANDARD","INDIV_CONTEXT","RELATION","Witness","3.0 change",,"STANDARD","Relationship defined by a birth certificate or marriage contract, timestamp is date of certificate  (these persons may be defined as relatives as well)"
-30234.00,"STANDARD","INDIV_CONTEXT","RELATION","Informer","3.0",,"STANDARD","Relationship defined by a birth or death certificate, timestamp is date of certificate (these persons may be defined as relatives as well)"
-30235.00,"STANDARD","INDIV_CONTEXT","RELATION","Bride","3.0 change",,"STANDARD","Only to be used in context of a marriage contract or certificate"
-30236.00,"STANDARD","INDIV_CONTEXT","RELATION","Groom","3.0",,"STANDARD","Only to be used in context of a marriage contract or certificate"
-70012.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Basic sample 1812-1872 0,75%","3.0",,"HSN","The Research Person is part of the HSN basic sample, 1812-1872, frequency 0,75%"
-40401.00,"STANDARD","CONTEXT","POSTAL_CODE","DEFINITION","3.0",,"STANDARD",
-40402.00,"STANDARD","CONTEXT","ID_POLYGON","DEFINITION","3.0",,"STANDARD","Key linking the context to another (GIS-)database outside the IDS; this database is defined in the variable GIS_CONTEXT"
-10002.00,"STANDARD","METADATA","GIS_CONTEXT","DEFINITION","3.0",,"STANDARD","Database outside the IDS-System with GIS_references; the key to this reference system is included in the IDS Variable ID_POLYGON"
-50416.00,"STANDARD","TIMESTAMP","ESTIMATION","Age_based","3.0",,"STANDARD","Period estimated on age and date at which the age is valid (eg calculating a period of birth on the basis of age given at date of marriage or death)"
-10020.00,"HSN","INDIVIDUAL","MARRIAGE_PERMISSION","DEFINITION","3.0",,"HSN","Way of giving permission to a specific marriage, the wedding is defined by the timestamp and the variable HSN IDENTIFIER"
-70013.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Basic sample 1873-1902 0,50%","3.0",,"HSN","The Research Person is part of the HSN basic sample, 1873-1902, frequency 0,505%"
-70014.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Basic sample 1903-1922 0,25%","3.0",,"HSN","The Research Person is part of the HSN basic sample, 1903-1922, frequency 0,25%"
-70015.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Oversampling RDF","3.0",,"HSN","The Research Person is part of the RDN oversampling 1881-1885 or 1911-1915"
-70011.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","DEFINITION","3.0",,"HSN","Variable to define the sample status of the HSN Research Person"
-70016.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Oversampling 1903-1922 0,25%","3.0",,"HSN","The Research Person is part of the HSN oversampling, 1903-1922, frequency 0,25%"
-70017.00,"HSN","INDIVIDUAL","HSN_SAMPLE_STATUS","Oversampling OVF","3.0",,"HSN","The Research Person is part of the OVF oversampling Rotterdam 1850-1902"
-10185.00,"HSN","INDIVIDUAL","SIGNATURE","Unknown","3.0",,"X2","Not known if person signed or not (in situation that person was supposed to sign)"
-10031.00,"STANDARD","INDIVIDUAL","DIVORCE_DATE","DEFINITION","3.0",,"STANDARD","Date of a divorce;  the value and further definition will be handled by the time stamp"
-10032.00,"STANDARD","INDIVIDUAL","DIVORCE_LOCATION","DEFINITION","3.0",,"STANDARD","Location of a divorce. It is preferable to use a reference key to the context table and to enter the lowest level of the context"
-50406.00,"STANDARD","TIMESTAMP","DATE_TYPE","Imputed","3.0",,"STANDARD","Date or period imputed by the database administrator, for example if at a certain date a divorce date is known it is possible to impute a period for CIVIL_STATUS is divorced."
-20150.00,"STANDARD","INDIV_INDIV","RELATION","Child","3.0",,"STANDARD",
-20151.00,"STANDARD","INDIV_INDIV","RELATION","Stepchild","3.0",,"STANDARD",
-30217.00,"STANDARD","INDIV_CONTEXT","RELATION","Master","3.0",,"STANDARD",
-10000.00,"STANDARD","METADATA","VERSION_IDS","3.01","2.0",,"STANDARD","Version number of the used IDS (each METADATA_table has its own constant version number)"
-10001.00,"STANDARD","METADATA","VERSION_RELEASE","DEFINITION","2.0",,"STANDARD","Version number and name of the released dataset"
-10003.00,"STANDARD","INDIVIDUAL","BIRTH_DATE","DEFINITION","1.0",,"STANDARD","Date of birth; the value and further definition will be handled by the time stamp"
-10004.00,"STANDARD","INDIVIDUAL","BIRTH_LOCATION","DEFINITION","1.0",,"STANDARD","Location of the event of birth. It is preferable to use a reference key to the context table and to enter the lowest level of the context."
-10005.00,"STANDARD","INDIVIDUAL","BAPTISM_DATE","DEFINITION","1.0",,"STANDARD","Date of the event of baptism or period in which a baptism took place; the value will be handled by the time stamp"
-10006.00,"STANDARD","INDIVIDUAL","BAPTISM_LOCATION","DEFINITION","1.0",,"STANDARD","Location of the event of baptism. It is preferable to use a reference key to the context table and to enter the lowest level of the context"
-10007.00,"STANDARD","INDIVIDUAL","DEATH_DATE","DEFINITION","1.0",,"STANDARD","Date of death; the value and further definition will be handled by the time stamp"
-10008.00,"STANDARD","INDIVIDUAL","DEATH_LOCATION","DEFINITION","1.0",,"STANDARD","Location of the event of death. It is preferable to use a reference key to the context table and to enter the lowest level of the context"
-10015.00,"STANDARD","INDIVIDUAL","MARRIAGE_DATE","DEFINITION","1.0",,"STANDARD","Date of a marriage;  the value and further definition will be handled by the time stamp"
-10016.00,"STANDARD","INDIVIDUAL","MARRIAGE_SEQUENCE","DEFINITION","1.0",,"STANDARD","Sequence of the marriage as defined by the time stamp and other identifiers."
-10017.00,"STANDARD","INDIVIDUAL","MARRIAGE_LOCATION","DEFINITION","1.0",,"STANDARD","Location of the event of marriage, it is not necessary to define a sequence because this is already defined by having equal values in the timestamp. It is preferable to use a reference key to the context table and to enter the lowest level of the context"
-10041.00,"STANDARD","INDIVIDUAL","LAST_NAME","DEFINITION","1.0",,"STANDARD","Last name or family name of the individual (this name may change during the life course, an empty timestamp means that no change took place)."
-10042.00,"STANDARD","INDIVIDUAL","PREFIX_LAST_NAME","DEFINITION","3.0",,"STANDARD","Prefix of familyname, in Dutch context usually and in Belgian Context quite often seperated from 'main familyname', like 'De Boer'"
-10043.00,"STANDARD","INDIVIDUAL","FIRST_NAME","DEFINITION","1.0",,"STANDARD","First name of the individual. If the name consists of several parts, these parts must be separated by one space (charactar), (this name may change during the life course, an empty timestamp means that no change took place)."
-10146.00,"STANDARD","INDIVIDUAL","TITLE","DEFINITION","3.0",,"STANDARD","Title of noble origin like 'Baron', 'Duke' or another origin like 'Gentleman'"
-10147.00,"STANDARD","INDIVIDUAL","TITLE_STANDARD","DEFINITION","3.0",,"STANDARD","Standardized version of title"
-10148.00,"STANDARD","INDIVIDUAL","TITLE_ENG","DEFINITION","3.0",,"STANDARD","English version of standardized version of title"
-12010.00,"STANDARD","INDIVIDUAL","OCCUPATION","DEFINITION","3.0 change",,"STANDARD","Original ccupational title (all appearances, including repeating titles with the same value)"
-12011.00,"STANDARD","INDIVIDUAL","OCCUPATION_STANDARD","DEFINITION","1.0",,"STANDARD","Standardized occupational title (all appearances, including repeating titles with the same value)"
-12012.00,"STANDARD","INDIVIDUAL","OCCUPATION_ENG","DEFINITION","1.0",,"STANDARD","English version of standardized occupational title (all appearances, including repeating titles with the same value)"
-12013.00,"STANDARD","INDIVIDUAL","OCCUPATION_HISCO","DEFINITION","1.0",,"STANDARD","HISCO_code of standardized occupational title (all appearances, including repeating titles with the same value)"
-12014.00,"STANDARD","INDIVIDUAL","OCCUPATION_HISCO_STATUS","DEFINITION","1.0",,"STANDARD","HISCO_code for status present in (standardized) occupational title like master, owner, journeyman, student, baron."
-12015.00,"STANDARD","INDIVIDUAL","OCCUPATION_HISCO_RELATION","DEFINITION","1.0",,"STANDARD","HISCO_code for relationship with others' occupations or former occupations present in (standardized) occupational title like daughter (of farmer), retired (merchant)."
-12016.00,"STANDARD","INDIVIDUAL","OCCUPATION_HISCO_PRODUCT","DEFINITION","1.0",,"STANDARD","HISCO_code for traded products present in (standardized) occupational title like ores and minerals, textiles."
-10143.00,"STANDARD","INDIVIDUAL","RELIGION","DEFINITION","3.0 change",,"STANDARD","Original religious title"
-10144.00,"STANDARD","INDIVIDUAL","RELIGION_STANDARD","DEFINITION","1.0",,"STANDARD","Standardized religious title"
-10145.00,"STANDARD","INDIVIDUAL","RELIGION_ENG","DEFINITION","1.0",,"STANDARD","English version of standardized religious title"
-10140.00,"STANDARD","INDIVIDUAL","NATIONALITY","DEFINITION","3.0",,"STANDARD","Original version of nationality"
-10141.00,"STANDARD","INDIVIDUAL","NATIONALITY_STANDARD","DEFINITION","3.0",,"STANDARD","Standardized  version of nationality"
-10142.00,"STANDARD","INDIVIDUAL","NATIONALITY_ENG","DEFINITION","3.0",,"STANDARD","English version of standardized version of nationality"
-10150.00,"STANDARD","INDIVIDUAL","AGE_YEARS","DEFINITION","1.0",,"STANDARD","Age in years at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
-10151.00,"STANDARD","INDIVIDUAL","AGE_MONTHS","DEFINITION","1.0",,"STANDARD","Age in months at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
-10152.00,"STANDARD","INDIVIDUAL","AGE_WEEKS","DEFINITION","1.0",,"STANDARD","Age in weeks at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
-10153.00,"STANDARD","INDIVIDUAL","AGE_DAYS","DEFINITION","1.0",,"STANDARD","Age in days at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
-10173.00,"STANDARD","INDIVIDUAL","OBSERVATION","DEFINITION","1.0",,"STANDARD","Period of observation, there may be separate periods of observation"
-10171.00,"STANDARD","INDIVIDUAL","ARRIVAL_FROM","DEFINITION","4.0 change",,"STANDARD","Location or country from where a person enters the observation. It is preferable to use a reference key to the context table and to enter the lowest level of the context."
-10172.00,"STANDARD","INDIVIDUAL","DEPARTURE_TO","DEFINITION","4.0 change",,"STANDARD","Location or country to where a person leaves the observation. It is preferable to use a reference key to the context table and to enter the lowest level of the context."
-10180.00,"STANDARD","INDIVIDUAL","SIGNATURE","DEFINITION","1.0",,"STANDARD","Ability to sign an civil certificate or other act or contract. Timestamp and/or relation with other persons clears in which legal context the individual was supposed to make a signature."
-10181.00,"STANDARD","INDIVIDUAL","SIGNATURE","Yes","1.0",,"STANDARD","Individual is able to sign"
-10182.00,"STANDARD","INDIVIDUAL","SIGNATURE","No","1.0",,"STANDARD","Individual is unable to sign"
-10183.00,"HSN","INDIVIDUAL","SIGNATURE","Sabbath","3.0",,"HSN","Individual is not signing because he is not supposed to sign on sabbath"
-10184.00,"STANDARD","INDIVIDUAL","SIGNATURE","Unable","1.0",,"STANDARD","Unable to sign for other reasons than illiteracy (disablility,  nerves etc.)"
-11040.00,"STANDARD","INDIVIDUAL","SEX","DEFINITION","1.0",,"STANDARD","Sex of individual"
-11041.00,"STANDARD","INDIVIDUAL","SEX","Male","1.0",,"STANDARD",""
-11042.00,"STANDARD","INDIVIDUAL","SEX","Female","1.0",,"STANDARD",""
-11043.00,"STANDARD","INDIVIDUAL","SEX","Unknown","1.0",,"STANDARD",""
-11044.00,"DDB","INDIVIDUAL","SEX","Hermaphrodite","3.0",,"DDB",
-11051.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","DEFINITION","3.01 change",,"STANDARD","Civil status"
-11052.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Unmarried","3.01 change",,"STANDARD",""
-11053.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Married","3.01 change",,"STANDARD",""
-11054.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Widowed","3.01 change",,"STANDARD",""
-11055.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Divorced","3.01 change",,"STANDARD",""
-11056.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Separated from bed and board","3.01 change",,"STANDARD",""
-11057.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Married but abandoned","3.01 change",,"STANDARD",""
-11058.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Unknown","3.01 change",,"STANDARD",""
-20145.00,"STANDARD","INDIV_INDIV","RELATION","DEFINITION","1.0",,"STANDARD","Only one variable in this table: the relationship from the first individual to the second one ; In case of biological relationships a timestamp is not necessary"
-20146.00,"STANDARD","INDIV_INDIV","RELATION","Father","1.0",,"STANDARD",""
-20147.00,"STANDARD","INDIV_INDIV","RELATION","Mother","1.0",,"STANDARD",""
-20148.00,"STANDARD","INDIV_INDIV","RELATION","Husband","3.0",,"STANDARD",
-20149.00,"STANDARD","INDIV_INDIV","RELATION","Wife","1.0",,"STANDARD",""
-20160.00,"STANDARD","INDIV_INDIV","RELATION","Stepfather","1.0",,"STANDARD",""
-20161.00,"STANDARD","INDIV_INDIV","RELATION","Stepmother","1.0",,"STANDARD",""
-20162.00,"STANDARD","INDIV_INDIV","RELATION","Sibling","1.0",,"STANDARD","Although, relations on siblings can be deducted from Father/mother and child relationships, information on these relations is not always available"
-20163.00,"STANDARD","INDIV_INDIV","RELATION","Half-sibling","1.0",,"STANDARD",""
-20164.00,"STANDARD","INDIV_INDIV","RELATION","Sibling or half-sibling","1.0",,"STANDARD","In some contexts only one relationship with a father or a mother is avaible (in case of population registers the relationship with the father as householder is clear but it is not clear if the wife of the householder is also the mother)."
-20166.00,"STANDARD","INDIV_INDIV","RELATION","Step-sibling","1.0",,"STANDARD",""
-20167.00,"STANDARD","INDIV_INDIV","RELATION","Uncle","1.0",,"STANDARD",""
-20168.00,"STANDARD","INDIV_INDIV","RELATION","Aunt","1.0",,"STANDARD",""
-20169.00,"STANDARD","INDIV_INDIV","RELATION","Nephew","1.0",,"STANDARD",""
-20170.00,"STANDARD","INDIV_INDIV","RELATION","Niece","1.0",,"STANDARD",""
-20172.00,"STANDARD","INDIV_INDIV","RELATION","Sibling-in-law","1.0",,"STANDARD",""
-30231.00,"STANDARD","INDIV_CONTEXT","RELATION","Birth","3.0 change",,"STANDARD","Relationship defined by a birth certificate, timestamp is date of certificate [Birth, not present itself at the moment of notifying!]"
-30232.00,"STANDARD","INDIV_CONTEXT","RELATION","Death","3.0 change",,"STANDARD","Relationship defined by a death certificate, timestamp is date of certificate [Death, not present itself at the moment of notifying!]"
-20176.00,"STANDARD","INDIV_INDIV","RELATION","Maid","1.0",,"STANDARD",""
-20177.00,"STANDARD","INDIV_INDIV","RELATION","Householder","1.0",,"STANDARD",""
-20178.00,"STANDARD","INDIV_INDIV","RELATION","Visitor","1.0",,"STANDARD",""
-20179.00,"STANDARD","INDIV_INDIV","RELATION","Servant","1.0",,"STANDARD",""
-20180.00,"STANDARD","INDIV_INDIV","RELATION","Non-relative","1.0",,"STANDARD",""
-30201.00,"STANDARD","INDIV_CONTEXT","RELATION","DEFINITION","1.0",,"STANDARD","There is is only one variable in  in the table INDIV_CONTEXT, so there are only values to be defined"
-30202.00,"STANDARD","INDIV_CONTEXT","RELATION","Householder","1.0",,"STANDARD",""
-30203.00,"STANDARD","INDIV_CONTEXT","RELATION","Family","1.0",,"STANDARD",""
-30204.00,"STANDARD","INDIV_CONTEXT","RELATION","Visitor","1.0",,"STANDARD",""
-30205.00,"STANDARD","INDIV_CONTEXT","RELATION","Non-relative","4.1 changed",,"STANDARD","The relation 'relative' or 'non-relative' is directed to the householder (in relationship with the CONTEXT)"
-30206.00,"STANDARD","INDIV_CONTEXT","RELATION","Maid","1.0",,"STANDARD",""
-30207.00,"STANDARD","INDIV_CONTEXT","RELATION","Co-resident","1.0",,"STANDARD",""
-30208.00,"STANDARD","INDIV_CONTEXT","RELATION","Lodger","1.0",,"STANDARD",""
-30250.00,"STANDARD","INDIV_CONTEXT","RELATION","Aquaintance","4.1",,"STANDARD",
-30209.00,"STANDARD","INDIV_CONTEXT","RELATION","Servant","1.0",,"STANDARD",""
-30211.00,"STANDARD","INDIV_CONTEXT","RELATION","Teacher","1.0",,"STANDARD","Living in an instututional setting (like a boarding school)"
-30212.00,"STANDARD","INDIV_CONTEXT","RELATION","Student","1.0",,"STANDARD","Living in a instututional setting (like a boarding school or college)"
-30213.00,"STANDARD","INDIV_CONTEXT","RELATION","Monk","1.0",,"STANDARD",""
-30214.00,"STANDARD","INDIV_CONTEXT","RELATION","Nun","1.0",,"STANDARD",""
-30215.00,"STANDARD","INDIV_CONTEXT","RELATION","Prioress","1.0",,"STANDARD",""
-30216.00,"STANDARD","INDIV_CONTEXT","RELATION","Abbot","1.0",,"STANDARD",""
-40360.00,"STANDARD","CONTEXT","LEVEL","State","1.0",,"STANDARD",
-40362.00,"STANDARD","CONTEXT","LEVEL","Region","1.0",,"STANDARD",
-40364.00,"STANDARD","CONTEXT","LEVEL","Municipality","1.0",,"STANDARD",
-40365.00,"STANDARD","CONTEXT","LEVEL","Locality","1.0",,"STANDARD",
-40366.00,"STANDARD","CONTEXT","LEVEL","Quarter","1.0",,"STANDARD",
-40412.00,"STANDARD","CONTEXT","STREET","DEFINITION","1.0",,"STANDARD","Name of a street"
-40413.00,"STANDARD","CONTEXT","HOUSE_NUMBER","DEFINITION","1.0",,"STANDARD","Number of a house"
-40414.00,"STANDARD","CONTEXT","HOUSE_NAME","DEFINITION","1.0",,"STANDARD","Name of a house"
-40431.00,"STANDARD","CONTEXT","LATITUDE","DEFINITION","1.0",,"STANDARD","Latitude giving the X- part of the coordinates for a Centroid (East West)"
-40432.00,"STANDARD","CONTEXT","LONGITUDE","DEFINITION","1.0",,"STANDARD","Longitude giving the Y-part of the coordinates for a Centroid (North South)"
-40433.00,"STANDARD","CONTEXT","INHABITANTS","DEFINITION","1.0",,"STANDARD","Number of inhabitants at a certain point in time"
-40415.00,"HSN","CONTEXT","HOUSE_NUMBER_EXTENSION","DEFINITION","3.0",,"HSN","Extension to the number of the house"
-40416.00,"HSN","CONTEXT","BOAT","DEFINITION","3.0",,"HSN","Name of the (house) boat where people are living"
-40417.00,"HSN","CONTEXT","BERTH","DEFINITION","3.0",,"HSN","Name of the street or quay where a house boat is situated"
-40420.00,"STANDARD","CONTEXT","INSTITUTION","DEFINITION","3.0",,"STANDARD","Name of the institution (hospital, armee barack etc) where persons may located"
-40361.00,"STANDARD","CONTEXT","LEVEL","Province","3.0",,"STANDARD",
-40363.00,"STANDARD","CONTEXT","LEVEL","County","3.0",,"STANDARD",
-20183.00,"STANDARD","INDIV_INDIV","RELATION","Cousin","4.1",,"STANDARD",
-40481.00,"HSN","CONTEXT","LANDLORD","DEFINITION","3.0",,"HSN","Name of the landlord if not included in the IDS itself"
-50401.00,"STANDARD","TIMESTAMP","DATE_TYPE","DEFINITION","1.0",,"STANDARD","Type of date"
-50402.00,"STANDARD","TIMESTAMP","DATE_TYPE","Event","1.0",,"STANDARD","Date of an event, observed at the moment of the event itself (like the date of birth in a birth certificate)"
-50403.00,"STANDARD","TIMESTAMP","DATE_TYPE","Reported","1.0",,"STANDARD","Date of an event, reported in a later source (like the date of birth in a population register)"
-50404.00,"STANDARD","TIMESTAMP","DATE_TYPE","Declared","1.0",,"STANDARD","Date at which point in time a certain attribute is valid (like 'married' or some occupational title)"
-50405.00,"STANDARD","TIMESTAMP","DATE_TYPE","Assigned","3.0",,"STANDARD","Date or period assigned by the database administrator"
-50411.00,"STANDARD","TIMESTAMP","ESTIMATION","DEFINITION","1.0",,"STANDARD","Type of estimation of date"
-50412.00,"STANDARD","TIMESTAMP","ESTIMATION","Exact","1.0",,"STANDARD","Exact date (day, month and year)"
-50413.00,"STANDARD","TIMESTAMP","ESTIMATION","Month_year","1.0",,"STANDARD","Exact month and year  (no day-number), no estimation made of the day-number"
-50414.00,"STANDARD","TIMESTAMP","ESTIMATION","Year","1.0",,"STANDARD","Exact year  (no day- and month-number), no estimation made of the day- and month-number"
-50415.00,"STANDARD","TIMESTAMP","ESTIMATION","Estimated","3.0",,"STANDARD","The date is estimated"
-50418.00,"HSN","TIMESTAMP","ESTIMATION","Estimated [xx]","3.0",,"HSN","The date is estimated, xx gives the code of estimation"
-50419.00,"HSN","TIMESTAMP","ESTIMATION","Estimated [xx / yy]","3.0",,"HSN","Begin and end of the period is estimated, xx / yy gives the code of estimation of start and end date"
-50420.00,"HSN","TIMESTAMP","ESTIMATION","Start_Estimated [xx]","3.0",,"HSN","The start of the period is estimated, xx gives the code of estimation"
-50421.00,"HSN","TIMESTAMP","ESTIMATION","End_Estimated [xx]","3.0",,"HSN","The end of the period is estimated, xx gives the code of estimation"
-50451.00,"STANDARD","TIMESTAMP","MISSING","DEFINITION","1.0",,"STANDARD","Reason why a (part of a) date is missing (and had to be estimated)"
-50453.00,"STANDARD","TIMESTAMP","MISSING","Unavailable","1.0",,"STANDARD","An (exact) date is missing in the source"
-50454.00,"STANDARD","TIMESTAMP","MISSING","Unreadable","1.0",,"STANDARD","An (exact) date is unreadable in the source"
-50455.00,"STANDARD","TIMESTAMP","MISSING","Anonymized","1.0",,"STANDARD","An (exact) date is available in the database but for reasons of privacy not included in the IDS"
-50456.00,"STANDARD","TIMESTAMP","MISSING","Time_Invariant","1.0",,"STANDARD","No date is necessary, e.g. in case of the variable SEX"
-50457.00,"STANDARD","TIMESTAMP","MISSING","Private","1.0",,"STANDARD","An (exact) date has never been entered into the database for reasons of privacy"
-50458.00,"STANDARD","TIMESTAMP","MISSING","Unknown","1.0",,"STANDARD","An (exact) date is missing in the source for reasons unknown (or not documented)"
-70001.00,"HSN","INDIVIDUAL","HSN_IDENTIFIER","DEFINITION","3.0",,"HSN","HSN identifying key of the original Research Person"
-70002.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","DEFINITION","3.0",,"HSN","HSN code to distinguish the Research Person (RP) from other persons"
-70003.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","HSN RP","3.0",,"HSN","The individual is the HSN Research Person"
-70004.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Mother RP","3.0",,"HSN","The individual is the father of the HSN Research Person"
-70005.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Father RP","3.0",,"HSN","The individual is the mother of the HSN Research Person"
-70006.00,"HSN","INDIVIDUAL","HSN_RESEARCH_PERSON","Other","3.0",,"HSN","The individual has another relationship with the HSN Research Person"
-80001.00,"DDB","INDIVIDUAL","CHILDBIRTH_ASSISTANT","DEFINITION","3.0",,"DDB","Indicates whether the child is delivered by a trained midwife."
-80002.00,"DDB","INDIVIDUAL","CHILDBIRTH_ASSISTANT","Delivery with an unexamined assistant","3.0",,"DDB","The child is delivered with help from an untrained assistant."
-80003.00,"DDB","INDIVIDUAL","CHILDBIRTH_ASSISTANT","Midwife delivery","3.0",,"DDB","The child is delivered with help from a trained midwife."
-80004.00,"DDB","INDIVIDUAL","CHILDBIRTH_ASSISTANT","Midwife delivery with instruments","3.0",,"DDB","The child is delivered with help from a trained midwife and instruments were used. "
-80005.00,"DDB","INDIVIDUAL","CHILDBIRTH_ASSISTANT","Unknown","3.0",,"DDB","The way the child is delivered is unknown."
-10009.00,"STANDARD","INDIVIDUAL","FUNERAL_DATE","DEFINITION","3.0",,"STANDARD","Date of funeral; the value and further definition will be handled by the time stamp."
-10130.00,"STANDARD","INDIVIDUAL","LEGITIMACY","DEFINITION","3.0",,"STANDARD","Legitimacy"
-10131.00,"STANDARD","INDIVIDUAL","LEGITIMACY","Child of betrothal","3.0",,"STANDARD","Born outside of marriage, within betrothal"
-10132.00,"STANDARD","INDIVIDUAL","LEGITIMACY","Illegitimate","3.0",,"STANDARD","Born outside of marriage"
-10133.00,"STANDARD","INDIVIDUAL","LEGITIMACY","Legitimate","3.0",,"STANDARD","Born within marriage"
-10134.00,"STANDARD","INDIVIDUAL","LEGITIMACY","Recognized","3.0",,"STANDARD","Recognized by father at birth"
-10135.00,"STANDARD","INDIVIDUAL","LEGITIMACY","Legitimation","3.0",,"STANDARD","Legitimized by marriage of father and mother"
-10136.00,"STANDARD","INDIVIDUAL","LEGITIMACY","Unknown","3.0",,"STANDARD","No note on legitimacy. Children with unknown legitimacy are usually born within marriage."
-10125.00,"STANDARD","INDIVIDUAL","MULTIPLE_BIRTH","DEFINITION","3.01 change",,"STANDARD","Multiple birth."
-10127.00,"DDB","INDIVIDUAL","MULTIPLE_BIRTH","Missing information","3.01 change",,"DDB",
-10126.00,"STANDARD","INDIVIDUAL","MULTIPLE_BIRTH","N","3.01 change",,"STANDARD","N= number of births. For example 2=twins, 1=singleton, 3=triplets, etc."
-10128.00,"DDB","INDIVIDUAL","MULTIPLE_BIRTH","Unknown","3.01 change",,"DDB","Unknown information signify no multiple birth"
-80011.00,"DDB","INDIVIDUAL","VACCINATION","DEFINITION","3.0",,"DDB","Vaccination (smallpox)."
-80012.00,"DDB","INDIVIDUAL","VACCINATION","Infected by smallpox","3.0",,"DDB","These markers state that the persons have been infected from an ordinary smallpox infection. The given immunity made later attempts to vaccinate (or inoculate) them impossible."
-80013.00,"DDB","INDIVIDUAL","VACCINATION","Infected and Vaccinated","3.0",,"DDB","The code includes markers that in a contradictory way state that the person has had both a natural smallpox and has been vaccinated. This is normally not possible. For persons born during the eighteenth century the marker ought to indicate natural smallpo"
-80014.00,"DDB","INDIVIDUAL","VACCINATION","Missing information","3.0",,"DDB",
-80015.00,"DDB","INDIVIDUAL","VACCINATION","Not vaccinated","3.0",,"DDB","The markers show that the person is not immune against smallpox, i. e. either previously vaccinated or infected from the disease."
-80016.00,"DDB","INDIVIDUAL","VACCINATION","Vaccinated","3.0",,"DDB","This code includes markers that undoubtedly tell that the person is vaccinated, but also markers that indicate inoculation (variolisation). Persons born after 1801 have most probably been given a vaccination note, while those born earlier might have been "
-80017.00,"DDB","INDIVIDUAL","VACCINATION","Vaccinated and revaccinated","3.0",,"DDB","The markers state that the person has been vaccinated more than one time, i. e. is revaccinated. The code indicates the strongest level of immunity."
-10010.00,"STANDARD","INDIVIDUAL","FUNERAL_LOCATION","DEFINITION","3.0",,"STANDARD","Location of the funeral. It is preferable to use a reference key to the context table and to enter the lowest level of the context"
-20182.00,"STANDARD","INDIV_INDIV","RELATION","Stillbirth","4.0",,"STANDARD",
-10161.00,"STANDARD","INDIVIDUAL","START_OBSERVATION","DEFINITION","4.0",,"STANDARD","Reason and date of the start of an observation"
-10163.00,"STANDARD","INDIVIDUAL","START_OBSERVATION","Arrival","4.0",,"STANDARD","Observation started because of an arrival in a register (context)"
-10162.00,"STANDARD","INDIVIDUAL","START_OBSERVATION","Birth","4.0",,"STANDARD","Observation started because of birth"
-10164.00,"STANDARD","INDIVIDUAL","START_OBSERVATION","Start source","4.0",,"STANDARD","Observation started because an individual is present from the start in a register (without being present in other foregoing registers, included in the database)"
-10166.00,"STANDARD","INDIVIDUAL","END_OBSERVATION","DEFINITION","4.0",,"STANDARD","Reason and date of the end of an observation"
-10167.00,"STANDARD","INDIVIDUAL","END_OBSERVATION","Death","4.0",,"STANDARD","Observation ended because of death"
-10168.00,"STANDARD","INDIVIDUAL","END_OBSERVATION","Departure","4.0",,"STANDARD","Observation ended because of a departure out of a register (context)"
-10169.00,"STANDARD","INDIVIDUAL","END_OBSERVATION","End source","4.0",,"STANDARD","Observation ended because an individual is present at the closing of a register (without being present in other succeeding registers, included in teh database)"
-20184.00,"STANDARD","INDIV_INDIV","RELATION","Cousin-in-law","4.1",,"STANDARD",
-20185.00,"STANDARD","INDIV_INDIV","RELATION","Foster child","4.1",,"STANDARD",
-20186.00,"STANDARD","INDIV_INDIV","RELATION","Foster father","4.1",,"STANDARD",
-20187.00,"STANDARD","INDIV_INDIV","RELATION","Foster mother","4.1",,"STANDARD",
-30256.00,"STANDARD","INDIV_CONTEXT","RELATION","Governess","4.1",,"STANDARD",
-20188.00,"STANDARD","INDIV_INDIV","RELATION","Grandchild","4.1",,"STANDARD",
-20189.00,"STANDARD","INDIV_INDIV","RELATION","Grandfather","4.1",,"STANDARD",
-20192.00,"STANDARD","INDIV_INDIV","RELATION","Grandfather-in-law","4.1",,"STANDARD",
-20198.00,"STANDARD","INDIV_INDIV","RELATION","Grandmother","4.1",,"STANDARD",
-20197.00,"STANDARD","INDIV_INDIV","RELATION","Grandmother-in-law","4.1",,"STANDARD",
-20196.00,"STANDARD","INDIV_INDIV","RELATION","Great grandchild","4.1",,"STANDARD",
-30255.00,"STANDARD","INDIV_CONTEXT","RELATION","Lady-in-waiting","4.1",,"STANDARD",
-30254.00,"STANDARD","INDIV_CONTEXT","RELATION","Living in","4.1",,"STANDARD",
-30253.00,"STANDARD","INDIV_CONTEXT","RELATION","Neighbour","4.1",,"STANDARD",
-20195.00,"STANDARD","INDIV_INDIV","RELATION","Nephew-in-law","4.1",,"STANDARD",
-20194.00,"STANDARD","INDIV_INDIV","RELATION","Niece-in-law","4.1",,"STANDARD",
-30252.00,"STANDARD","INDIV_CONTEXT","RELATION","Overnight guest","4.1",,"STANDARD",
-30251.00,"STANDARD","INDIV_CONTEXT","RELATION","Pupil","4.1",,"STANDARD",
-20193.00,"STANDARD","INDIV_INDIV","RELATION","Relative","4.1",,"STANDARD",
-20191.00,"STANDARD","INDIV_INDIV","RELATION","Spouse","4.1",,"STANDARD",
-20190.00,"STANDARD","INDIV_INDIV","RELATION","Stepchild-in-law","4.1",,"STANDARD",
-30258.00,"STANDARD","INDIV_INDIV","RELATION","Unknown","4.1",,"STANDARD",
-20199.00,"STANDARD","INDIV_INDIV","RELATION","Governess","4.1",,"STANDARD",
-20200.00,"STANDARD","INDIV_INDIV","RELATION","Lady-in-waiting","4.1",,"STANDARD",
-30257.00,"STANDARD","INDIV_CONTEXT","RELATION","Relative","4.1",,"STANDARD","The relation 'relative' or 'non-relative' is directed to the householder  (in relationship with the CONTEXT)"
-11060.00,"STANDARD","INDIVIDUAL","CIVIL_STATUS","Engaged","4.2",,"STANDARD",
-10165.00,"STANDARD","INDIVIDUAL","START_OBSERVATION","Unknown","4.2",,"STANDARD","Person arrived in the register but reason is not specified and could not be deducted from other data"
-10170.00,"STANDARD","INDIVIDUAL","END_OBSERVATION","Unknown","4.2",,"STANDARD","Person departed from the register but reason is not specified and could not be deducted from other data"
-12020.00,"STANDARD","INDIVIDUAL","OCCUPATION_B","DEFINITION","4.2",,"STANDARD","Second part of original ccupational title with two titles (having exactly the same timestamp as the first title)"
-12021.00,"STANDARD","INDIVIDUAL","OCCUPATION_B_STANDARD","DEFINITION","4.2",,"STANDARD","Second part of standardized ccupational title with two titles (having exactly the same timestamp as the first title)"
-12022.00,"STANDARD","INDIVIDUAL","OCCUPATION_B_ENG","DEFINITION","4.2",,"STANDARD","Second part of English version of standardized ccupational title with two titles (having exactly the same timestamp as the first title)"
-12023.00,"STANDARD","INDIVIDUAL","OCCUPATION_B_HISCO","DEFINITION","4.2",,"STANDARD","HISCO_code of second part of standardized occupational title with two titles (having exactly the same timestamp as the first title)"
-12024.00,"STANDARD","INDIVIDUAL","OCCUPATION_B_HISCO_STATUS","DEFINITION","4.2",,"STANDARD","HISCO_code for status present in second part (standardized) occupational title like master, owner, journeyman, student, baron."
-12025.00,"STANDARD","INDIVIDUAL","OCCUPATION_B_HISCO_RELATION","DEFINITION","4.2",,"STANDARD","HISCO_code for relationship with others' occupations or former occupations present in second part of (standardized) occupational title like daughter (of farmer), retired (merchant)."
-12026.00,"STANDARD","INDIVIDUAL","OCCUPATION_B_HISCO_PRODUCT","DEFINITION","4.2",,"STANDARD","HISCO_code for traded products present in second part of (standardized) occupational title like ores and minerals, textiles."
-12030.00,"STANDARD","INDIVIDUAL","OCCUPATION_C","DEFINITION","4.2",,"STANDARD","Third part of original ccupational title with three titles (having exactly the same timestamp as the first title)"
-12031.00,"STANDARD","INDIVIDUAL","OCCUPATION_C_STANDARD","DEFINITION","4.2",,"STANDARD","Third part of standardized ccupational title with three titles (having exactly the same timestamp as the first title)"
-12032.00,"STANDARD","INDIVIDUAL","OCCUPATION_C_ENG","DEFINITION","4.2",,"STANDARD","Third part of English version of standardized ccupational title with three titles (having exactly the same timestamp as the first title)"
-12033.00,"STANDARD","INDIVIDUAL","OCCUPATION_C_HISCO","DEFINITION","4.2",,"STANDARD","HISCO_code of third part of standardized occupational title with three titles (having exactly the same timestamp as the first title)"
-12034.00,"STANDARD","INDIVIDUAL","OCCUPATION_C_HISCO_STATUS","DEFINITION","4.2",,"STANDARD","HISCO_code for status present in third part (standardized) occupational title like master, owner, journeyman, student, baron."
-12035.00,"STANDARD","INDIVIDUAL","OCCUPATION_C_HISCO_RELATION","DEFINITION","4.2",,"STANDARD","HISCO_code for relationship with others' occupations or former occupations present in third part of (standardized) occupational title like daughter (of farmer), retired (merchant)."
-12036.00,"STANDARD","INDIVIDUAL","OCCUPATION_C_HISCO_PRODUCT","DEFINITION","4.2",,"STANDARD","HISCO_code for traded products present in third part of (standardized) occupational title like ores and minerals, textiles."
+Id,Id_D,Type_T,Type,Value,New,Extract,Id_D_Explanation,Explanation,Instructions
+10022,HSN,INDIVIDUAL,MARRIAGE_PERMISSION,Not necessary,3,,HSN,Not necessary because bride or groom is 23 years old or older,
+10023,HSN,INDIVIDUAL,MARRIAGE_PERMISSION,Oral permission,3,,HSN,Oral permission at moment of wedding (usual case),
+10024,HSN,INDIVIDUAL,MARRIAGE_PERMISSION,Written permission,3,,HSN,Written permission at moment of wedding,
+10025,HSN,INDIVIDUAL,MARRIAGE_PERMISSION,Notarial act,3,,HSN,Legal permission by way of notary (usually in case of parental opposition against marriage),
+10026,HSN,INDIVIDUAL,MARRIAGE_PERMISSION,Other way,3,,HSN,Other way of giving permission,
+10018,HSN,INDIVIDUAL,MARRIAGE_PROCLAMATION_DATE,DEFINITION,3,,HSN,Date of the marriage proclamation (at least twice at municipality of living (till six months before marriage) and muncipality of marriage,
+10019,HSN,INDIVIDUAL,MARRIAGE_PROCLAMATION_LOCATION,DEFINITION,3,,HSN,Location of the marriage proclamation (at least twice at municipality of living (till six months before marriage) and muncipality of marriage,
+30237,HSN,INDIV_CONTEXT,RELATION,Former spouse,3,,HSN,Only to be used in context of a marriage contract or certificate,
+20152,STANDARD,INDIV_INDIV,RELATION,Legitimized child,3,,HSN,Child recognized (usually by way of a marriage),
+10137,HSN,INDIVIDUAL,RECOGNITION_DATE,DEFINITION,3,,HSN,Date of recogniton as a legitimate child,
+10138,HSN,INDIVIDUAL,RECOGNITION_LOCATION,DEFINITION,3,,HSN,Location of recogniton as a legitimate child,
+10034,HSN,INDIVIDUAL,ALIVE,DEFINITION,3,,HSN,In case it is relevant to know if a certain person is alive or not at a certain point of time,
+10035,HSN,INDIVIDUAL,ALIVE,Yes,3,,HSN,Yes person is alive at the moment of the timestamp,
+10036,HSN,INDIVIDUAL,ALIVE,No,3,,HSN,No person has died before the moment of the timestamp,
+40385,HSN,CONTEXT,NAME,Extract Death Certificate,3,,HSN,If someone died in another municipality than the legal one of living an extract was made up in the location were one was legally registrated.,
+40854,HSN,CONTEXT_CONTEXT,RELATION,Extract Death Certificate and Municipality,3,,HSN,Source oriented contextual link,
+40380,STANDARD,CONTEXT,NAME,DEFINITION,3.0 change,,STANDARD,Name of the level (=value),Standard values are introduced  for name in case of source as level.
+30238,HSN,INDIV_CONTEXT,RELATION,Father as informer,3,,HSN,In birth and death certificates the father of the birth or of a relatively young deceased child usually acted as informer as well.,
+70018,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,Oversampling DUM,3,,HSN,The Research Person is part of the DUM  oversampling city of Utrecht,
+70019,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,Priority subsample 1863-1882,3,,HSN,"The Research Person is part of the priority subsampling 1863-1882 (part of the basic sample 1812-18820, temporary value",
+20153,STANDARD,INDIV_INDIV,RELATION,Child-in-law,3,,STANDARD,,
+20154,STANDARD,INDIV_INDIV,RELATION,Mother-in-law,3,,STANDARD,,
+20155,STANDARD,INDIV_INDIV,RELATION,Father-in-law,3,,STANDARD,,
+11059,STANDARD,INDIVIDUAL,CIVIL_STATUS,Divorced or widowed,4.2 change,,STANDARD,,Sometimes it is not clear if the lacking of a spouse is caused by a divorce or widowing
+50422,STANDARD,TIMESTAMP,ESTIMATION,Interpolation,3,,STANDARD,The period is a subperiod based on interpolation in equal parts within a broader period; the number of subperiods is equal to teh number of different observations,
+20181,STANDARD,INDIV_INDIV,RELATION,Master,3,,STANDARD,,
+30218,STANDARD,INDIV_CONTEXT,RELATION,Boarder,3,,STANDARD,,
+40800,STANDARD,CONTEXT_CONTEXT,RELATION,DEFINITION,3.01,,STANDARD,The relationship from the first context individual to the second one (the relationship is not necessarily hierarchical),
+10011,STANDARD,INDIVIDUAL,STILLBIRTH_DATE,DEFINITION,4,,STANDARD,Date of the event of a stillbirth,The value and further definition will be handled by the time stamp
+10012,STANDARD,INDIVIDUAL,STILLBIRTH_LOCATION,DEFINITION,4,,STANDARD,Location of the event of the stillbirth. ,It is preferable to use a reference key to the context table and to enter the lowest level of the context
+40801,STANDARD,CONTEXT_CONTEXT,RELATION,Province and State,3,,STANDARD,,
+40802,STANDARD,CONTEXT_CONTEXT,RELATION,County and State,3,,STANDARD,,
+40804,STANDARD,CONTEXT_CONTEXT,RELATION,Municipality and Province,3,,STANDARD,,
+40811,STANDARD,CONTEXT_CONTEXT,RELATION,Locality and Municipality,3,,STANDARD,,
+40812,STANDARD,CONTEXT_CONTEXT,RELATION,Quarter and Municipality,3,,STANDARD,,
+40814,STANDARD,CONTEXT_CONTEXT,RELATION,Address and Municipality,3,,STANDARD,,
+40821,STANDARD,CONTEXT_CONTEXT,RELATION,Quarter and Locality,3,,STANDARD,,
+40831,STANDARD,CONTEXT_CONTEXT,RELATION,Address and Locality,3,,STANDARD,,
+40805,STANDARD,CONTEXT_CONTEXT,RELATION,Municipality and County,3,,STANDARD,,
+40350,STANDARD,CONTEXT,LEVEL,DEFINITION,1,,STANDARD,Definiton of the hierarchical level of the context,
+40368,STANDARD,CONTEXT,LEVEL,Address,1,,STANDARD,,
+40832,STANDARD,CONTEXT_CONTEXT,RELATION,Address and Quarter,3,,STANDARD,,
+40803,STANDARD,CONTEXT_CONTEXT,RELATION,Region and State,3,,STANDARD,,
+40806,STANDARD,CONTEXT_CONTEXT,RELATION,Municipality and Region,3,,STANDARD,,
+40367,STANDARD,CONTEXT,LEVEL,Neighborhood,1,,STANDARD,,
+40813,STANDARD,CONTEXT_CONTEXT,RELATION,Neighborhood and Municipality,3,,STANDARD,,
+40822,STANDARD,CONTEXT_CONTEXT,RELATION,Neighborhood and Locality,3,,STANDARD,,
+40833,STANDARD,CONTEXT_CONTEXT,RELATION,Address and Neighborhood,3,,STANDARD,,
+40369,STANDARD,CONTEXT,LEVEL,Source,3,,STANDARD,A source is used as contextual level,
+40387,STANDARD,CONTEXT,NAME,Baptismal Register,3,,STANDARD,Church records,
+40382,STANDARD,CONTEXT,NAME,Birth Certificate,3,,STANDARD,,
+40383,STANDARD,CONTEXT,NAME,Marriage Certificate,3,,STANDARD,,
+40384,STANDARD,CONTEXT,NAME,Death Certificate,3,,STANDARD,,
+40386,STANDARD,CONTEXT,NAME,Population Register,3,,STANDARD,,
+40388,STANDARD,CONTEXT,NAME,Marriage Register,3,,STANDARD,Church records,
+40389,STANDARD,CONTEXT,NAME,Funeral Register,3,,STANDARD,Church records,
+40520,STANDARD,CONTEXT,PAGE,DEFINITION,3,,STANDARD,Page number of the source,
+40521,STANDARD,CONTEXT,VOLUME,DEFINITION,3,,STANDARD,Volume number of the source,
+40522,STANDARD,CONTEXT,SEQUENCE_NUMBER,DEFINITION,3,,STANDARD,Sequence number of the source (like a number of a certificate),
+40523,STANDARD,CONTEXT,PERIOD,DEFINITION,3,,STANDARD,Period of the source (part of the reference system),
+40851,STANDARD,CONTEXT_CONTEXT,RELATION,Birth Certificate and Municipality,3,,STANDARD,Source oriented contextual link,
+40852,STANDARD,CONTEXT_CONTEXT,RELATION,Marriage Certificate and Municipality,3,,STANDARD,Source oriented contextual link,
+40853,STANDARD,CONTEXT_CONTEXT,RELATION,Death Certificate and Municipality,3,,STANDARD,Source oriented contextual link,
+40855,STANDARD,CONTEXT_CONTEXT,RELATION,Baptismal Register and Locality,3,,STANDARD,Source oriented contextual link,
+40856,STANDARD,CONTEXT_CONTEXT,RELATION,Marriage Register and Locality,3,,STANDARD,Source oriented contextual link,
+40857,STANDARD,CONTEXT_CONTEXT,RELATION,Funeral Register and Locality,3,,STANDARD,Source oriented contextual link,
+40861,STANDARD,CONTEXT_CONTEXT,RELATION,Population Register and Municipality,3,,STANDARD,Source oriented contextual link,
+40862,STANDARD,CONTEXT_CONTEXT,RELATION,Population Register and Locality,3,,STANDARD,Source oriented contextual link,
+30233,STANDARD,INDIV_CONTEXT,RELATION,Witness,3.0 change,,STANDARD,Relationship defined by a birth certificate or marriage contract,timestamp is date of certificate  (these persons may be defined as relatives as well)
+30234,STANDARD,INDIV_CONTEXT,RELATION,Informer,3,,STANDARD,Relationship defined by a birth or death certificate,timestamp is date of certificate (these persons may be defined as relatives as well)
+30235,STANDARD,INDIV_CONTEXT,RELATION,Bride,3.0 change,,STANDARD,Only to be used in context of a marriage contract or certificate,
+30236,STANDARD,INDIV_CONTEXT,RELATION,Groom,3,,STANDARD,Only to be used in context of a marriage contract or certificate,
+70012,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,"Basic sample 1812-1872 0,75%",3,,HSN,"The Research Person is part of the HSN basic sample, 1812-1872, frequency 0,75%",
+40401,STANDARD,CONTEXT,POSTAL_CODE,DEFINITION,3,,STANDARD,,
+40402,STANDARD,CONTEXT,ID_POLYGON,DEFINITION,3,,STANDARD,Key linking the context to another (GIS-)database outside the IDS; this database is defined in the variable GIS_CONTEXT,
+10002,STANDARD,METADATA,GIS_CONTEXT,DEFINITION,3,,STANDARD,Database outside the IDS-System with GIS_references; the key to this reference system is included in the IDS Variable ID_POLYGON,
+50416,STANDARD,TIMESTAMP,ESTIMATION,Age_based,3,,STANDARD,Period estimated on age and date at which the age is valid (eg calculating a period of birth on the basis of age given at date of marriage or death),
+10020,HSN,INDIVIDUAL,MARRIAGE_PERMISSION,DEFINITION,3,,HSN,"Way of giving permission to a specific marriage, the wedding is defined by the timestamp and the variable HSN IDENTIFIER",
+70013,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,"Basic sample 1873-1902 0,50%",3,,HSN,"The Research Person is part of the HSN basic sample, 1873-1902, frequency 0,505%",
+70014,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,"Basic sample 1903-1922 0,25%",3,,HSN,"The Research Person is part of the HSN basic sample, 1903-1922, frequency 0,25%",
+70015,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,Oversampling RDF,3,,HSN,The Research Person is part of the RDN oversampling 1881-1885 or 1911-1915,
+70011,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,DEFINITION,3,,HSN,Variable to define the sample status of the HSN Research Person,
+70016,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,"Oversampling 1903-1922 0,25%",3,,HSN,"The Research Person is part of the HSN oversampling, 1903-1922, frequency 0,25%",
+70017,HSN,INDIVIDUAL,HSN_SAMPLE_STATUS,Oversampling OVF,3,,HSN,The Research Person is part of the OVF oversampling Rotterdam 1850-1902,
+10185,HSN,INDIVIDUAL,SIGNATURE,Unknown,3,,X2,Not known if person signed or not (in situation that person was supposed to sign),
+10031,STANDARD,INDIVIDUAL,DIVORCE_DATE,DEFINITION,3,,STANDARD,Date of a divorce,the value and further definition will be handled by the time stamp
+10032,STANDARD,INDIVIDUAL,DIVORCE_LOCATION,DEFINITION,3,,STANDARD,Location of a divorce., It is preferable to use a reference key to the context table and to enter the lowest level of the context
+50406,STANDARD,TIMESTAMP,DATE_TYPE,Imputed,3,,STANDARD,Date or period imputed by the database administrator,For example if at a certain date a divorce date is known it is possible to impute a period for CIVIL_STATUS is divorced.
+20150,STANDARD,INDIV_INDIV,RELATION,Child,3,,STANDARD,,
+20151,STANDARD,INDIV_INDIV,RELATION,Stepchild,3,,STANDARD,,
+30217,STANDARD,INDIV_CONTEXT,RELATION,Master,3,,STANDARD,,
+10000,STANDARD,METADATA,VERSION_IDS,3.01,2,,STANDARD,Version number of the used IDS, Each METADATA_table has its own constant version number
+10001,STANDARD,METADATA,VERSION_RELEASE,DEFINITION,2,,STANDARD,Version number and name of the released dataset,
+10003,STANDARD,INDIVIDUAL,BIRTH_DATE,DEFINITION,1,,STANDARD,Date of birth,the value and further definition will be handled by the time stamp
+10004,STANDARD,INDIVIDUAL,BIRTH_LOCATION,DEFINITION,1,,STANDARD,Location of the event of birth. ,It is preferable to use a reference key to the context table and to enter the lowest level of the context.
+10005,STANDARD,INDIVIDUAL,BAPTISM_DATE,DEFINITION,1,,STANDARD,Date of the event of baptism or period in which a baptism took place,the value will be handled by the time stamp
+10006,STANDARD,INDIVIDUAL,BAPTISM_LOCATION,DEFINITION,1,,STANDARD,Location of the event of baptism. ,It is preferable to use a reference key to the context table and to enter the lowest level of the context
+10007,STANDARD,INDIVIDUAL,DEATH_DATE,DEFINITION,1,,STANDARD,Date of death,the value and further definition will be handled by the time stamp
+10008,STANDARD,INDIVIDUAL,DEATH_LOCATION,DEFINITION,1,,STANDARD,Location of the event of death., It is preferable to use a reference key to the context table and to enter the lowest level of the context
+10015,STANDARD,INDIVIDUAL,MARRIAGE_DATE,DEFINITION,1,,STANDARD,Date of a marriage,the value and further definition will be handled by the time stamp
+10016,STANDARD,INDIVIDUAL,MARRIAGE_SEQUENCE,DEFINITION,1,,STANDARD,Sequence of the marriage as defined by the time stamp and other identifiers.,
+10017,STANDARD,INDIVIDUAL,MARRIAGE_LOCATION,DEFINITION,1,,STANDARD,Location of the event of marriage,it is not necessary to define a sequence because this is already defined by having equal values in the timestamp. It is preferable to use a reference key to the context table and to enter the lowest level of the context
+10041,STANDARD,INDIVIDUAL,LAST_NAME,DEFINITION,1,,STANDARD,Last name or family name of the individual ,"this name may change during the life course, an empty timestamp means that no change took place."
+10042,STANDARD,INDIVIDUAL,PREFIX_LAST_NAME,DEFINITION,3,,STANDARD,"Prefix of familyname, in Dutch context usually and in Belgian Context quite often seperated from 'main familyname', like 'De Boer'",
+10043,STANDARD,INDIVIDUAL,FIRST_NAME,DEFINITION,1,,STANDARD,First name of the individual. ,"If the name consists of several parts, these parts must be separated by one space (charactar), (this name may change during the life course, an empty timestamp means that no change took place)."
+10146,STANDARD,INDIVIDUAL,TITLE,DEFINITION,3,,STANDARD,"Title of noble origin like 'Baron', 'Duke' or another origin like 'Gentleman'",
+10147,STANDARD,INDIVIDUAL,TITLE_STANDARD,DEFINITION,3,,STANDARD,Standardized version of title,
+10148,STANDARD,INDIVIDUAL,TITLE_ENG,DEFINITION,3,,STANDARD,English version of standardized version of title,
+12010,STANDARD,INDIVIDUAL,OCCUPATION,DEFINITION,3.0 change,,STANDARD,Original occupational title ,"all appearances, including repeating titles with the same value"
+12011,STANDARD,INDIVIDUAL,OCCUPATION_STANDARD,DEFINITION,1,,STANDARD,Standardized occupational title ,"all appearances, including repeating titles with the same value"
+12012,STANDARD,INDIVIDUAL,OCCUPATION_ENG,DEFINITION,1,,STANDARD,English version of standardized occupational title ,"all appearances, including repeating titles with the same value"
+12013,STANDARD,INDIVIDUAL,OCCUPATION_HISCO,DEFINITION,1,,STANDARD,HISCO_code of standardized occupational title ,"all appearances, including repeating titles with the same value"
+12014,STANDARD,INDIVIDUAL,OCCUPATION_HISCO_STATUS,DEFINITION,1,,STANDARD,"HISCO_code for status present in (standardized) occupational title like master, owner, journeyman, student, baron.",
+12015,STANDARD,INDIVIDUAL,OCCUPATION_HISCO_RELATION,DEFINITION,1,,STANDARD,"HISCO_code for relationship with others' occupations or former occupations present in (standardized) occupational title like daughter (of farmer), retired (merchant).",
+12016,STANDARD,INDIVIDUAL,OCCUPATION_HISCO_PRODUCT,DEFINITION,1,,STANDARD,"HISCO_code for traded products present in (standardized) occupational title like ores and minerals, textiles.",
+10143,STANDARD,INDIVIDUAL,RELIGION,DEFINITION,3.0 change,,STANDARD,Original religious title,
+10144,STANDARD,INDIVIDUAL,RELIGION_STANDARD,DEFINITION,1,,STANDARD,Standardized religious title,
+10145,STANDARD,INDIVIDUAL,RELIGION_ENG,DEFINITION,1,,STANDARD,English version of standardized religious title,
+10140,STANDARD,INDIVIDUAL,NATIONALITY,DEFINITION,3,,STANDARD,Original version of nationality,
+10141,STANDARD,INDIVIDUAL,NATIONALITY_STANDARD,DEFINITION,3,,STANDARD,Standardized  version of nationality,
+10142,STANDARD,INDIVIDUAL,NATIONALITY_ENG,DEFINITION,3,,STANDARD,English version of standardized version of nationality,
+10150,STANDARD,INDIVIDUAL,AGE_YEARS,DEFINITION,1,,STANDARD,Age in years ,"at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
+10151,STANDARD,INDIVIDUAL,AGE_MONTHS,DEFINITION,1,,STANDARD,Age in months,"at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
+10152,STANDARD,INDIVIDUAL,AGE_WEEKS,DEFINITION,1,,STANDARD,Age in weeks,"at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
+10153,STANDARD,INDIVIDUAL,AGE_DAYS,DEFINITION,1,,STANDARD,Age in days,"at a certain point in time handled by the time stamp, this variable exclude the use of other variables starting with 'AGE_' (for the same individual)."
+10173,STANDARD,INDIVIDUAL,OBSERVATION,DEFINITION,1,,STANDARD,"Period of observation, there may be separate periods of observation",
+10171,STANDARD,INDIVIDUAL,ARRIVAL_FROM,DEFINITION,4.0 change,,STANDARD,Location or country from where a person enters the observation. ,It is preferable to use a reference key to the context table and to enter the lowest level of the context.
+10172,STANDARD,INDIVIDUAL,DEPARTURE_TO,DEFINITION,4.0 change,,STANDARD,Location or country to where a person leaves the observation. ,It is preferable to use a reference key to the context table and to enter the lowest level of the context.
+10180,STANDARD,INDIVIDUAL,SIGNATURE,DEFINITION,1,,STANDARD,Ability to sign an civil certificate or other act or contract. ,Timestamp and/or relation with other persons clears in which legal context the individual was supposed to make a signature.
+10181,STANDARD,INDIVIDUAL,SIGNATURE,Yes,1,,STANDARD,Individual is able to sign,
+10182,STANDARD,INDIVIDUAL,SIGNATURE,No,1,,STANDARD,Individual is unable to sign,
+10183,HSN,INDIVIDUAL,SIGNATURE,Sabbath,3,,HSN,Individual is not signing because he is not supposed to sign on sabbath,
+10184,STANDARD,INDIVIDUAL,SIGNATURE,Unable,1,,STANDARD,"Unable to sign for other reasons than illiteracy (disablility,  nerves etc.)",
+11040,STANDARD,INDIVIDUAL,SEX,DEFINITION,1,,STANDARD,Sex of individual,
+11041,STANDARD,INDIVIDUAL,SEX,Male,1,,STANDARD,,
+11042,STANDARD,INDIVIDUAL,SEX,Female,1,,STANDARD,,
+11043,STANDARD,INDIVIDUAL,SEX,Unknown,1,,STANDARD,,
+11044,DDB,INDIVIDUAL,SEX,Hermaphrodite,3,,DDB,,
+11051,STANDARD,INDIVIDUAL,CIVIL_STATUS,DEFINITION,3.01 change,,STANDARD,Civil status,
+11052,STANDARD,INDIVIDUAL,CIVIL_STATUS,Unmarried,3.01 change,,STANDARD,,
+11053,STANDARD,INDIVIDUAL,CIVIL_STATUS,Married,3.01 change,,STANDARD,,
+11054,STANDARD,INDIVIDUAL,CIVIL_STATUS,Widowed,3.01 change,,STANDARD,,
+11055,STANDARD,INDIVIDUAL,CIVIL_STATUS,Divorced,3.01 change,,STANDARD,,
+11056,STANDARD,INDIVIDUAL,CIVIL_STATUS,Separated from bed and board,3.01 change,,STANDARD,,
+11057,STANDARD,INDIVIDUAL,CIVIL_STATUS,Married but abandoned,3.01 change,,STANDARD,,
+11058,STANDARD,INDIVIDUAL,CIVIL_STATUS,Unknown,3.01 change,,STANDARD,,
+20145,STANDARD,INDIV_INDIV,RELATION,DEFINITION,1,,STANDARD,The relationship from the first individual to the second one ; In case of biological relationships a timestamp is not necessary,
+20146,STANDARD,INDIV_INDIV,RELATION,Father,1,,STANDARD,,
+20147,STANDARD,INDIV_INDIV,RELATION,Mother,1,,STANDARD,,
+20148,STANDARD,INDIV_INDIV,RELATION,Husband,3,,STANDARD,,
+20149,STANDARD,INDIV_INDIV,RELATION,Wife,1,,STANDARD,,
+20160,STANDARD,INDIV_INDIV,RELATION,Stepfather,1,,STANDARD,,
+20161,STANDARD,INDIV_INDIV,RELATION,Stepmother,1,,STANDARD,,
+20162,STANDARD,INDIV_INDIV,RELATION,Sibling,1,,STANDARD,,"Although, relations on siblings can be deducted from Father/mother and child relationships, information on these relations is not always available"
+20163,STANDARD,INDIV_INDIV,RELATION,Half-sibling,1,,STANDARD,,
+20164,STANDARD,INDIV_INDIV,RELATION,Sibling or half-sibling,1,,STANDARD,,In some contexts only one relationship with a father or a mother is avaible (in case of population registers the relationship with the father as householder is clear but it is not clear if the wife of the householder is also the mother).
+20166,STANDARD,INDIV_INDIV,RELATION,Step-sibling,1,,STANDARD,,
+20167,STANDARD,INDIV_INDIV,RELATION,Uncle,1,,STANDARD,,
+20168,STANDARD,INDIV_INDIV,RELATION,Aunt,1,,STANDARD,,
+20169,STANDARD,INDIV_INDIV,RELATION,Nephew,1,,STANDARD,,
+20170,STANDARD,INDIV_INDIV,RELATION,Niece,1,,STANDARD,,
+20172,STANDARD,INDIV_INDIV,RELATION,Sibling-in-law,1,,STANDARD,,
+30231,STANDARD,INDIV_CONTEXT,RELATION,Birth,3.0 change,,STANDARD,"Relationship defined by a birth certificate, timestamp is date of certificate"," [Birth, not present itself at the moment of notifying!]"
+30232,STANDARD,INDIV_CONTEXT,RELATION,Death,3.0 change,,STANDARD,"Relationship defined by a death certificate, timestamp is date of certificate"," [Death, not present itself at the moment of notifying!]"
+20176,STANDARD,INDIV_INDIV,RELATION,Maid,1,,STANDARD,,
+20177,STANDARD,INDIV_INDIV,RELATION,Householder,1,,STANDARD,,
+20178,STANDARD,INDIV_INDIV,RELATION,Visitor,1,,STANDARD,,
+20179,STANDARD,INDIV_INDIV,RELATION,Servant,1,,STANDARD,,
+20180,STANDARD,INDIV_INDIV,RELATION,Non-relative,1,,STANDARD,,
+30201,STANDARD,INDIV_CONTEXT,RELATION,DEFINITION,1,,STANDARD,"There is is only one variable in  in the table INDIV_CONTEXT, so there are only values to be defined",
+30202,STANDARD,INDIV_CONTEXT,RELATION,Householder,1,,STANDARD,,
+30203,STANDARD,INDIV_CONTEXT,RELATION,Family,1,,STANDARD,,
+30204,STANDARD,INDIV_CONTEXT,RELATION,Visitor,1,,STANDARD,,
+30205,STANDARD,INDIV_CONTEXT,RELATION,Non-relative,4.1 changed,,STANDARD,The relation 'relative' or 'non-relative' is directed to the householder (in relationship with the CONTEXT),
+30206,STANDARD,INDIV_CONTEXT,RELATION,Maid,1,,STANDARD,,
+30207,STANDARD,INDIV_CONTEXT,RELATION,Co-resident,1,,STANDARD,,
+30208,STANDARD,INDIV_CONTEXT,RELATION,Lodger,1,,STANDARD,,
+30250,STANDARD,INDIV_CONTEXT,RELATION,Aquaintance,4.1,,STANDARD,,
+30209,STANDARD,INDIV_CONTEXT,RELATION,Servant,1,,STANDARD,,
+30211,STANDARD,INDIV_CONTEXT,RELATION,Teacher,1,,STANDARD,Living in an instututional setting (like a boarding school),
+30212,STANDARD,INDIV_CONTEXT,RELATION,Student,1,,STANDARD,Living in a instututional setting (like a boarding school or college),
+30213,STANDARD,INDIV_CONTEXT,RELATION,Monk,1,,STANDARD,,
+30214,STANDARD,INDIV_CONTEXT,RELATION,Nun,1,,STANDARD,,
+30215,STANDARD,INDIV_CONTEXT,RELATION,Prioress,1,,STANDARD,,
+30216,STANDARD,INDIV_CONTEXT,RELATION,Abbot,1,,STANDARD,,
+40360,STANDARD,CONTEXT,LEVEL,State,1,,STANDARD,,
+40362,STANDARD,CONTEXT,LEVEL,Region,1,,STANDARD,,
+40364,STANDARD,CONTEXT,LEVEL,Municipality,1,,STANDARD,,
+40365,STANDARD,CONTEXT,LEVEL,Locality,1,,STANDARD,,
+40366,STANDARD,CONTEXT,LEVEL,Quarter,1,,STANDARD,,
+40412,STANDARD,CONTEXT,STREET,DEFINITION,1,,STANDARD,Name of a street,
+40413,STANDARD,CONTEXT,HOUSE_NUMBER,DEFINITION,1,,STANDARD,Number of a house,
+40414,STANDARD,CONTEXT,HOUSE_NAME,DEFINITION,1,,STANDARD,Name of a house,
+40431,STANDARD,CONTEXT,LATITUDE,DEFINITION,1,,STANDARD,Latitude giving the X- part of the coordinates for a Centroid (East West),
+40432,STANDARD,CONTEXT,LONGITUDE,DEFINITION,1,,STANDARD,Longitude giving the Y-part of the coordinates for a Centroid (North South),
+40433,STANDARD,CONTEXT,INHABITANTS,DEFINITION,1,,STANDARD,Number of inhabitants at a certain point in time,
+40415,HSN,CONTEXT,HOUSE_NUMBER_EXTENSION,DEFINITION,3,,HSN,Extension to the number of the house,
+40416,HSN,CONTEXT,BOAT,DEFINITION,3,,HSN,Name of the (house) boat where people are living,
+40417,HSN,CONTEXT,BERTH,DEFINITION,3,,HSN,Name of the street or quay where a house boat is situated,
+40420,STANDARD,CONTEXT,INSTITUTION,DEFINITION,3,,STANDARD,"Name of the institution (hospital, armee barack etc) where persons may located",
+40361,STANDARD,CONTEXT,LEVEL,Province,3,,STANDARD,,
+40363,STANDARD,CONTEXT,LEVEL,County,3,,STANDARD,,
+20183,STANDARD,INDIV_INDIV,RELATION,Cousin,4.1,,STANDARD,,
+40481,HSN,CONTEXT,LANDLORD,DEFINITION,3,,HSN,Name of the landlord if not included in the IDS itself,
+50401,STANDARD,TIMESTAMP,DATE_TYPE,DEFINITION,1,,STANDARD,Type of date,
+50402,STANDARD,TIMESTAMP,DATE_TYPE,Event,1,,STANDARD,"Date of an event, observed at the moment of the event itself (like the date of birth in a birth certificate)",
+50403,STANDARD,TIMESTAMP,DATE_TYPE,Reported,1,,STANDARD,"Date of an event, reported in a later source (like the date of birth in a population register)",
+50404,STANDARD,TIMESTAMP,DATE_TYPE,Declared,1,,STANDARD,Date at which point in time a certain attribute is valid (like 'married' or some occupational title),
+50405,STANDARD,TIMESTAMP,DATE_TYPE,Assigned,3,,STANDARD,Date or period assigned by the database administrator,
+50411,STANDARD,TIMESTAMP,ESTIMATION,DEFINITION,1,,STANDARD,Type of estimation of date,
+50412,STANDARD,TIMESTAMP,ESTIMATION,Exact,1,,STANDARD,"Exact date (day, month and year)",
+50413,STANDARD,TIMESTAMP,ESTIMATION,Month_year,1,,STANDARD,"Exact month and year  (no day-number), no estimation made of the day-number",
+50414,STANDARD,TIMESTAMP,ESTIMATION,Year,1,,STANDARD,"Exact year  (no day- and month-number), no estimation made of the day- and month-number",
+50415,STANDARD,TIMESTAMP,ESTIMATION,Estimated,3,,STANDARD,The date is estimated,
+50418,HSN,TIMESTAMP,ESTIMATION,Estimated [xx],3,,HSN,"The date is estimated, xx gives the code of estimation",
+50419,HSN,TIMESTAMP,ESTIMATION,Estimated [xx / yy],3,,HSN,"Begin and end of the period is estimated, xx / yy gives the code of estimation of start and end date",
+50420,HSN,TIMESTAMP,ESTIMATION,Start_Estimated [xx],3,,HSN,"The start of the period is estimated, xx gives the code of estimation",
+50421,HSN,TIMESTAMP,ESTIMATION,End_Estimated [xx],3,,HSN,"The end of the period is estimated, xx gives the code of estimation",
+50451,STANDARD,TIMESTAMP,MISSING,DEFINITION,1,,STANDARD,Reason why a (part of a) date is missing (and had to be estimated),
+50453,STANDARD,TIMESTAMP,MISSING,Unavailable,1,,STANDARD,An (exact) date is missing in the source,
+50454,STANDARD,TIMESTAMP,MISSING,Unreadable,1,,STANDARD,An (exact) date is unreadable in the source,
+50455,STANDARD,TIMESTAMP,MISSING,Anonymized,1,,STANDARD,An (exact) date is available in the database but for reasons of privacy not included in the IDS,
+50456,STANDARD,TIMESTAMP,MISSING,Time_Invariant,1,,STANDARD,"No date is necessary, e.g. in case of the variable SEX",
+50457,STANDARD,TIMESTAMP,MISSING,Private,1,,STANDARD,An (exact) date has never been entered into the database for reasons of privacy,
+50458,STANDARD,TIMESTAMP,MISSING,Unknown,1,,STANDARD,An (exact) date is missing in the source for reasons unknown (or not documented),
+70001,HSN,INDIVIDUAL,HSN_IDENTIFIER,DEFINITION,3,,HSN,HSN identifying key of the original Research Person,
+70002,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,DEFINITION,3,,HSN,HSN code to distinguish the Research Person (RP) from other persons,
+70003,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,HSN RP,3,,HSN,The individual is the HSN Research Person,
+70004,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Mother RP,3,,HSN,The individual is the father of the HSN Research Person,
+70005,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Father RP,3,,HSN,The individual is the mother of the HSN Research Person,
+70006,HSN,INDIVIDUAL,HSN_RESEARCH_PERSON,Other,3,,HSN,The individual has another relationship with the HSN Research Person,
+80001,DDB,INDIVIDUAL,CHILDBIRTH_ASSISTANT,DEFINITION,3,,DDB,Indicates whether the child is delivered by a trained midwife.,
+80002,DDB,INDIVIDUAL,CHILDBIRTH_ASSISTANT,Delivery with an unexamined assistant,3,,DDB,The child is delivered with help from an untrained assistant.,
+80003,DDB,INDIVIDUAL,CHILDBIRTH_ASSISTANT,Midwife delivery,3,,DDB,The child is delivered with help from a trained midwife.,
+80004,DDB,INDIVIDUAL,CHILDBIRTH_ASSISTANT,Midwife delivery with instruments,3,,DDB,The child is delivered with help from a trained midwife and instruments were used. ,
+80005,DDB,INDIVIDUAL,CHILDBIRTH_ASSISTANT,Unknown,3,,DDB,The way the child is delivered is unknown.,
+10009,STANDARD,INDIVIDUAL,FUNERAL_DATE,DEFINITION,3,,STANDARD,Date of funeral,the value and further definition will be handled by the time stamp
+10130,STANDARD,INDIVIDUAL,LEGITIMACY,DEFINITION,3,,STANDARD,Legitimacy,
+10131,STANDARD,INDIVIDUAL,LEGITIMACY,Child of betrothal,3,,STANDARD,"Born outside of marriage, within betrothal",
+10132,STANDARD,INDIVIDUAL,LEGITIMACY,Illegitimate,3,,STANDARD,Born outside of marriage,
+10133,STANDARD,INDIVIDUAL,LEGITIMACY,Legitimate,3,,STANDARD,Born within marriage,
+10134,STANDARD,INDIVIDUAL,LEGITIMACY,Recognized,3,,STANDARD,Recognized by father at birth,
+10135,STANDARD,INDIVIDUAL,LEGITIMACY,Legitimation,3,,STANDARD,Legitimized by marriage of father and mother,
+10136,STANDARD,INDIVIDUAL,LEGITIMACY,Unknown,3,,STANDARD,No note on legitimacy. ,Children with unknown legitimacy are usually born within marriage.
+10125,STANDARD,INDIVIDUAL,MULTIPLE_BIRTH,DEFINITION,3.01 change,,STANDARD,Multiple birth,
+10127,DDB,INDIVIDUAL,MULTIPLE_BIRTH,Missing information,3.01 change,,DDB,,
+10126,STANDARD,INDIVIDUAL,MULTIPLE_BIRTH,N,3.01 change,,STANDARD,"N= number of births. For example 2=twins, 1=singleton, 3=triplets, etc.",
+10128,DDB,INDIVIDUAL,MULTIPLE_BIRTH,Unknown,3.01 change,,DDB,Unknown information signify no multiple birth,
+80011,DDB,INDIVIDUAL,VACCINATION,DEFINITION,3,,DDB,Vaccination (smallpox).,
+80012,DDB,INDIVIDUAL,VACCINATION,Infected by smallpox,3,,DDB,These markers state that the persons have been infected from an ordinary smallpox infection. The given immunity made later attempts to vaccinate (or inoculate) them impossible.,
+80013,DDB,INDIVIDUAL,VACCINATION,Infected and Vaccinated,3,,DDB,The code includes markers that in a contradictory way state that the person has had both a natural smallpox and has been vaccinated. This is normally not possible. For persons born during the eighteenth century the marker ought to indicate natural smallpo,
+80014,DDB,INDIVIDUAL,VACCINATION,Missing information,3,,DDB,,
+80015,DDB,INDIVIDUAL,VACCINATION,Not vaccinated,3,,DDB,"The markers show that the person is not immune against smallpox, i. e. either previously vaccinated or infected from the disease.",
+80016,DDB,INDIVIDUAL,VACCINATION,Vaccinated,3,,DDB,"This code includes markers that undoubtedly tell that the person is vaccinated, but also markers that indicate inoculation (variolisation). Persons born after 1801 have most probably been given a vaccination note, while those born earlier might have been ",
+80017,DDB,INDIVIDUAL,VACCINATION,Vaccinated and revaccinated,3,,DDB,"The markers state that the person has been vaccinated more than one time, i. e. is revaccinated. The code indicates the strongest level of immunity.",
+10010,STANDARD,INDIVIDUAL,FUNERAL_LOCATION,DEFINITION,3,,STANDARD,Location of the funeral. ,It is preferable to use a reference key to the context table and to enter the lowest level of the context
+20182,STANDARD,INDIV_INDIV,RELATION,Stillbirth,4,,STANDARD,,
+10161,STANDARD,INDIVIDUAL,START_OBSERVATION,DEFINITION,4,,STANDARD,Reason and date of the start of an observation,
+10163,STANDARD,INDIVIDUAL,START_OBSERVATION,Arrival,4,,STANDARD,Observation started because of an arrival in a register (context),
+10162,STANDARD,INDIVIDUAL,START_OBSERVATION,Birth,4,,STANDARD,Observation started because of birth,
+10164,STANDARD,INDIVIDUAL,START_OBSERVATION,Start source,4,,STANDARD,Observation started because an individual is present from the start in a register," (without being present in other foregoing registers, included in the database)"
+10166,STANDARD,INDIVIDUAL,END_OBSERVATION,DEFINITION,4,,STANDARD,Reason and date of the end of an observation,
+10167,STANDARD,INDIVIDUAL,END_OBSERVATION,Death,4,,STANDARD,Observation ended because of death,
+10168,STANDARD,INDIVIDUAL,END_OBSERVATION,Departure,4,,STANDARD,Observation ended because of a departure out of a register (context),
+10169,STANDARD,INDIVIDUAL,END_OBSERVATION,End source,4,,STANDARD,Observation ended because an individual is present at the closing of a register ,"(without being present in other succeeding registers, included in teh database)"
+20184,STANDARD,INDIV_INDIV,RELATION,Cousin-in-law,4.1,,STANDARD,,
+20185,STANDARD,INDIV_INDIV,RELATION,Foster child,4.1,,STANDARD,,
+20186,STANDARD,INDIV_INDIV,RELATION,Foster father,4.1,,STANDARD,,
+20187,STANDARD,INDIV_INDIV,RELATION,Foster mother,4.1,,STANDARD,,
+30256,STANDARD,INDIV_CONTEXT,RELATION,Governess,4.1,,STANDARD,,
+20188,STANDARD,INDIV_INDIV,RELATION,Grandchild,4.1,,STANDARD,,
+20189,STANDARD,INDIV_INDIV,RELATION,Grandfather,4.1,,STANDARD,,
+20192,STANDARD,INDIV_INDIV,RELATION,Grandfather-in-law,4.1,,STANDARD,,
+20198,STANDARD,INDIV_INDIV,RELATION,Grandmother,4.1,,STANDARD,,
+20197,STANDARD,INDIV_INDIV,RELATION,Grandmother-in-law,4.1,,STANDARD,,
+20196,STANDARD,INDIV_INDIV,RELATION,Great grandchild,4.1,,STANDARD,,
+30255,STANDARD,INDIV_CONTEXT,RELATION,Lady-in-waiting,4.1,,STANDARD,,
+30254,STANDARD,INDIV_CONTEXT,RELATION,Living in,4.1,,STANDARD,,
+30253,STANDARD,INDIV_CONTEXT,RELATION,Neighbour,4.1,,STANDARD,,
+20195,STANDARD,INDIV_INDIV,RELATION,Nephew-in-law,4.1,,STANDARD,,
+20194,STANDARD,INDIV_INDIV,RELATION,Niece-in-law,4.1,,STANDARD,,
+30252,STANDARD,INDIV_CONTEXT,RELATION,Overnight guest,4.1,,STANDARD,,
+30251,STANDARD,INDIV_CONTEXT,RELATION,Pupil,4.1,,STANDARD,,
+20193,STANDARD,INDIV_INDIV,RELATION,Relative,4.1,,STANDARD,,
+20191,STANDARD,INDIV_INDIV,RELATION,Spouse,4.1,,STANDARD,,
+20190,STANDARD,INDIV_INDIV,RELATION,Stepchild-in-law,4.1,,STANDARD,,
+30258,STANDARD,INDIV_INDIV,RELATION,Unknown,4.1,,STANDARD,,
+20199,STANDARD,INDIV_INDIV,RELATION,Governess,4.1,,STANDARD,,
+20200,STANDARD,INDIV_INDIV,RELATION,Lady-in-waiting,4.1,,STANDARD,,
+30257,STANDARD,INDIV_CONTEXT,RELATION,Relative,4.1,,STANDARD,The relation 'relative' or 'non-relative' is directed to the householder  (in relationship with the CONTEXT),
+11060,STANDARD,INDIVIDUAL,CIVIL_STATUS,Engaged,4.2,,STANDARD,,
+10165,STANDARD,INDIVIDUAL,START_OBSERVATION,Unknown,4.2,,STANDARD,Person arrived in the register but reason is not specified and could not be deducted from other data,
+10170,STANDARD,INDIVIDUAL,END_OBSERVATION,Unknown,4.2,,STANDARD,Person departed from the register but reason is not specified and could not be deducted from other data,
+12020,STANDARD,INDIVIDUAL,OCCUPATION_B,DEFINITION,4.2,,STANDARD,Second part of original occupational title with two titles (having exactly the same timestamp as the first title),
+12021,STANDARD,INDIVIDUAL,OCCUPATION_B_STANDARD,DEFINITION,4.2,,STANDARD,Second part of standardized ccupational title with two titles (having exactly the same timestamp as the first title),
+12022,STANDARD,INDIVIDUAL,OCCUPATION_B_ENG,DEFINITION,4.2,,STANDARD,Second part of English version of standardized ccupational title with two titles (having exactly the same timestamp as the first title),
+12023,STANDARD,INDIVIDUAL,OCCUPATION_B_HISCO,DEFINITION,4.2,,STANDARD,HISCO_code of second part of standardized occupational title with two titles (having exactly the same timestamp as the first title),
+12024,STANDARD,INDIVIDUAL,OCCUPATION_B_HISCO_STATUS,DEFINITION,4.2,,STANDARD,"HISCO_code for status present in second part (standardized) occupational title like master, owner, journeyman, student, baron.",
+12025,STANDARD,INDIVIDUAL,OCCUPATION_B_HISCO_RELATION,DEFINITION,4.2,,STANDARD,"HISCO_code for relationship with others' occupations or former occupations present in second part of (standardized) occupational title like daughter (of farmer), retired (merchant).",
+12026,STANDARD,INDIVIDUAL,OCCUPATION_B_HISCO_PRODUCT,DEFINITION,4.2,,STANDARD,"HISCO_code for traded products present in second part of (standardized) occupational title like ores and minerals, textiles.",
+12030,STANDARD,INDIVIDUAL,OCCUPATION_C,DEFINITION,4.2,,STANDARD,Third part of original ccupational title with three titles (having exactly the same timestamp as the first title),
+12031,STANDARD,INDIVIDUAL,OCCUPATION_C_STANDARD,DEFINITION,4.2,,STANDARD,Third part of standardized ccupational title with three titles (having exactly the same timestamp as the first title),
+12032,STANDARD,INDIVIDUAL,OCCUPATION_C_ENG,DEFINITION,4.2,,STANDARD,Third part of English version of standardized ccupational title with three titles (having exactly the same timestamp as the first title),
+12033,STANDARD,INDIVIDUAL,OCCUPATION_C_HISCO,DEFINITION,4.2,,STANDARD,HISCO_code of third part of standardized occupational title with three titles (having exactly the same timestamp as the first title),
+12034,STANDARD,INDIVIDUAL,OCCUPATION_C_HISCO_STATUS,DEFINITION,4.2,,STANDARD,"HISCO_code for status present in third part (standardized) occupational title like master, owner, journeyman, student, baron.",
+12035,STANDARD,INDIVIDUAL,OCCUPATION_C_HISCO_RELATION,DEFINITION,4.2,,STANDARD,"HISCO_code for relationship with others' occupations or former occupations present in third part of (standardized) occupational title like daughter (of farmer), retired (merchant).",
+12036,STANDARD,INDIVIDUAL,OCCUPATION_C_HISCO_PRODUCT,DEFINITION,4.2,,STANDARD,"HISCO_code for traded products present in third part of (standardized) occupational title like ores and minerals, textiles.",
